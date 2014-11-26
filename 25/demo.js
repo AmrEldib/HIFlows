@@ -1,52 +1,63 @@
-jsPlumb.ready(function() {
-		
-	var instance = jsPlumb.getInstance({
-		Connector:"StateMachine",
-		PaintStyle:{ lineWidth:3, strokeStyle:"#ffa500", "dashstyle":"2 4" },
-		Endpoint:[ "Dot", { radius:5 } ],
-		EndpointStyle:{ fillStyle:"#ffa500" },
-		Container:"perimeter-demo"
-	});
+jsPlumb.ready(function() {			
 
-	var shapes = jsPlumb.getSelector(".shape");
-    var step1 =  jsPlumb.getSelector("#step1");
-    var step2 =  jsPlumb.getSelector("#step2");
-	
-    // make everything draggable    
-	instance.draggable(step1);
-    instance.draggable(step2);
-	  
-	// suspend drawing and initialise.
-	instance.doWhileSuspended(function() {
+	var color = "gray";
+
+	var instance = jsPlumb.getInstance({
+		// notice the 'curviness' argument to this Bezier curve.  the curves on this page are far smoother
+		// than the curves on the first demo, which use the default curviness value.			
+		Connector : [ "Bezier", { curviness:50 } ],
+		DragOptions : { cursor: "pointer", zIndex:2000 },
+		PaintStyle : { strokeStyle:color, lineWidth:2 },
+		EndpointStyle : { radius:9, fillStyle:color },
+		HoverPaintStyle : {strokeStyle:"#ec9f2e" },
+		EndpointHoverStyle : {fillStyle:"#ec9f2e" },
+		Container:"chart-demo"
+	});
 		
-        /*
-        instance.connect({
-					source: step1,  // just pass in the current node in the selector for source 
-					target: step2,
-					// here we supply a different anchor for source and for target, and we get the element's "data-shape"
-					// attribute to tell us what shape we should use, as well as, optionally, a rotation value.
-					anchors:[
-						[ "Perimeter", { shape:step1.getAttribute("data-shape"), rotation:step1.getAttribute("data-rotation") }],
-						[ "Perimeter", { shape:step2.getAttribute( "data-shape"), rotation:step2.getAttribute("data-rotation") }]
-					]
-				});
-        */
-        
-		// loop through them and connect each one to each other one.
-		for (var i = 0; i < shapes.length; i++) {
-			for (var j = i + 1; j < shapes.length; j++) {
-				instance.connect({
-					source:shapes[i],  // just pass in the current node in the selector for source 
-					target:shapes[j],
-					// here we supply a different anchor for source and for target, and we get the element's "data-shape"
-					// attribute to tell us what shape we should use, as well as, optionally, a rotation value.
-					anchors:[
-						[ "Perimeter", { shape:shapes[i].getAttribute("data-shape"), rotation:shapes[i].getAttribute("data-rotation") }],
-						[ "Perimeter", { shape:shapes[j].getAttribute( "data-shape"), rotation:shapes[j].getAttribute("data-rotation") }]
-					]
-				});
-			}	
-		}  
+	// suspend drawing and initialise.
+	instance.doWhileSuspended(function() {		
+		// declare some common values:
+		var arrowCommon = { foldback:0.7, fillStyle:color, width:14 },
+			// use three-arg spec to create two different arrows with the common values:
+			overlays = [
+				[ "Arrow", { location:0.7 }, arrowCommon ]
+				//,[ "Arrow", { location:0.3, direction:-1 }, arrowCommon ]
+			];
+
+		// add endpoints, giving them a UUID.
+		// you DO NOT NEED to use this method. You can use your library's selector method.
+		// the jsPlumb demos use it so that the code can be shared between all three libraries.
+		var windows = jsPlumb.getSelector(".chart-demo .window");
+		for (var i = 0; i < windows.length; i++) {
+			instance.addEndpoint(windows[i], {
+				uuid:windows[i].getAttribute("id") + "-bottom",
+				anchor:"Bottom",
+				maxConnections:-1
+			});
+            instance.addEndpoint(windows[i], {
+				uuid:windows[i].getAttribute("id") + "-left",
+				anchor:"Left",
+				maxConnections:-1
+			});
+			instance.addEndpoint(windows[i], {
+				uuid:windows[i].getAttribute("id") + "-top",
+				anchor:"Top",
+				maxConnections:-1
+			});
+            instance.addEndpoint(windows[i], {
+				uuid:windows[i].getAttribute("id") + "-right",
+				anchor:"Right",
+				maxConnections:-1
+			});
+		}
+	
+		instance.connect({uuids:["step1-bottom", "step2-top" ], overlays:overlays});
+		instance.connect({uuids:["step2-left", "step3-right" ], overlays:overlays});
+		instance.connect({uuids:["step3-bottom", "step4-top" ], overlays:overlays});
+		instance.connect({uuids:["step4-right", "step2-left" ], overlays:overlays});
+		instance.connect({uuids:["step2-right", "step5-left" ], overlays:overlays});
+				
+		instance.draggable(windows);		
 	});
 
 	jsPlumb.fire("jsPlumbDemoLoaded", instance);
