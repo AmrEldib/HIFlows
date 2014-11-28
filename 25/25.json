@@ -1,0 +1,149 @@
+{
+    "podcast": "Hello Internet",
+    "episode": {
+        "number": 25,
+        "title": "Fantasy Stage"
+    },
+    "stops": [
+        {
+            "id": 1,
+            "title": "Holidays?",
+            "position": {
+                "top": 96,
+                "left": 320
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 2,
+            "title": "Humblebrags",
+            "position": {
+                "top": 288,
+                "left": 160
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 3,
+            "title": "Old News",
+            "position": {
+                "top": 288,
+                "left": 640
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 4,
+            "title": "Hollowbrags are original!",
+            "position": {
+                "top": 480,
+                "left": 64
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 5,
+            "title": "Brag Humble",
+            "position": {
+                "top": 480,
+                "left": 352
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 6,
+            "title": "Don Knuth",
+            "position": {
+                "top": 480,
+                "left": 752
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 7,
+            "title": "White Streak of toothpaste",
+            "position": {
+                "top": 736,
+                "left": 288
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 8,
+            "title": "Embarrassing, but not Humble?",
+            "position": {
+                "top": 608,
+                "left": 1008
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 9,
+            "title": "YouTube Notifications",
+            "position": {
+                "top": 750,
+                "left": 1008
+            },
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": 1,
+            "fromNode": "bottom",
+            "to": 2,
+            "toNode": "top"
+        },
+        {
+            "from": 2,
+            "fromNode": "left",
+            "to": 3,
+            "toNode": "right"
+        },
+        {
+            "from": 3,
+            "fromNode": "bottom",
+            "to": 4,
+            "toNode": "top"
+        },
+        {
+            "from": 4,
+            "fromNode": "right",
+            "to": 2,
+            "toNode": "left"
+        },
+        {
+            "from": 2,
+            "fromNode": "right",
+            "to": 5,
+            "toNode": "left"
+        }
+    ]
+}

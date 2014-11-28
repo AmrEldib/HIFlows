@@ -1,64 +1,97 @@
-jsPlumb.ready(function() {			
+jsPlumb.ready(function () {
 
-	var color = "gray";
+    var color = "gray";
 
-	var instance = jsPlumb.getInstance({
-		// notice the 'curviness' argument to this Bezier curve.  the curves on this page are far smoother
-		// than the curves on the first demo, which use the default curviness value.			
-		Connector : [ "Bezier", { curviness:50 } ],
-		DragOptions : { cursor: "pointer", zIndex:2000 },
-		PaintStyle : { strokeStyle:color, lineWidth:2 },
-		EndpointStyle : { radius:9, fillStyle:color },
-		HoverPaintStyle : {strokeStyle:"#ec9f2e" },
-		EndpointHoverStyle : {fillStyle:"#ec9f2e" },
-		Container:"chart-demo"
-	});
-		
-	// suspend drawing and initialise.
-	instance.doWhileSuspended(function() {		
-		// declare some common values:
-		var arrowCommon = { foldback:0.7, fillStyle:color, width:14 },
+    var instance = jsPlumb.getInstance({
+        // notice the 'curviness' argument to this Bezier curve.  the curves on this page are far smoother
+        // than the curves on the first demo, which use the default curviness value.			
+        Connector: ["Bezier", { curviness: 50 }],
+        DragOptions: { cursor: "pointer", zIndex: 2000 },
+        PaintStyle: { strokeStyle: color, lineWidth: 2 },
+        EndpointStyle: { radius: 9, fillStyle: color },
+        HoverPaintStyle: { strokeStyle: "#ec9f2e" },
+        EndpointHoverStyle: { fillStyle: "#ec9f2e" },
+        Container: "chart-demo"
+    });
+
+
+    // suspend drawing and initialize.
+    instance.doWhileSuspended(function () {
+        // declare some common values:
+        var arrowCommon = { foldback: 0.7, fillStyle: color, width: 14 },
 			// use three-arg spec to create two different arrows with the common values:
 			overlays = [
-				[ "Arrow", { location:0.7 }, arrowCommon ]
+				["Arrow", { location: 0.7 }, arrowCommon]
 				//,[ "Arrow", { location:0.3, direction:-1 }, arrowCommon ]
 			];
 
-		// add endpoints, giving them a UUID.
-		// you DO NOT NEED to use this method. You can use your library's selector method.
-		// the jsPlumb demos use it so that the code can be shared between all three libraries.
-		var windows = jsPlumb.getSelector(".chart-demo .window");
-		for (var i = 0; i < windows.length; i++) {
-			instance.addEndpoint(windows[i], {
-				uuid:windows[i].getAttribute("id") + "-bottom",
-				anchor:"Bottom",
-				maxConnections:-1
-			});
-            instance.addEndpoint(windows[i], {
-				uuid:windows[i].getAttribute("id") + "-left",
-				anchor:"Left",
-				maxConnections:-1
-			});
-			instance.addEndpoint(windows[i], {
-				uuid:windows[i].getAttribute("id") + "-top",
-				anchor:"Top",
-				maxConnections:-1
-			});
-            instance.addEndpoint(windows[i], {
-				uuid:windows[i].getAttribute("id") + "-right",
-				anchor:"Right",
-				maxConnections:-1
-			});
-		}
-	
-		instance.connect({uuids:["step1-bottom", "step2-top" ], overlays:overlays});
-		instance.connect({uuids:["step2-left", "step3-right" ], overlays:overlays});
-		instance.connect({uuids:["step3-bottom", "step4-top" ], overlays:overlays});
-		instance.connect({uuids:["step4-right", "step2-left" ], overlays:overlays});
-		instance.connect({uuids:["step2-right", "step5-left" ], overlays:overlays});
-				
-		instance.draggable(windows);		
-	});
+        $.getJSON("25.json", function (episodeData) {
 
-	jsPlumb.fire("jsPlumbDemoLoaded", instance);
+            // Set episode title
+            $("#episodeTitle").html(episodeData.podcast + " #" + episodeData.episode.number + ": " + episodeData.episode.title);
+
+            // Load stops
+            episodeData.stops.forEach(function (stop) {
+                $("#chart-demo").append("<div class='windowContainer'><span class='window' id='stop"
+                    + stop.id
+                    + "' data-playerseek='"
+                    + stop.seek.min + ":" + stop.seek.sec
+                    + "'>"
+                    + stop.id + " - " + stop.title
+                    + "</span></div>");
+                $("#stop" + stop.id).css("left", stop.position.left);
+                $("#stop" + stop.id).css("top", stop.position.top);
+            });
+            
+            $(".window").click(function () {
+                console.log(this.dataset.playerseek);
+                var audioPlayer = $("#player");
+                //if (!audioPlayer.paused) {
+                console.log(audioPlayer.seekable);
+                console.log(audioPlayer);
+                    audioPlayer.currentTime = 1000;
+                //}
+            });
+
+            // add endpoints, giving them a UUID.
+            // you DO NOT NEED to use this method. You can use your library's selector method.
+            // the jsPlumb demos use it so that the code can be shared between all three libraries.
+            var windows = jsPlumb.getSelector(".chart-demo .window");
+            for (var i = 0; i < windows.length; i++) {
+                instance.addEndpoint(windows[i], {
+                    uuid: windows[i].getAttribute("id") + "-bottom",
+                    anchor: "Bottom",
+                    maxConnections: -1
+                });
+                instance.addEndpoint(windows[i], {
+                    uuid: windows[i].getAttribute("id") + "-left",
+                    anchor: "Left",
+                    maxConnections: -1
+                });
+                instance.addEndpoint(windows[i], {
+                    uuid: windows[i].getAttribute("id") + "-top",
+                    anchor: "Top",
+                    maxConnections: -1
+                });
+                instance.addEndpoint(windows[i], {
+                    uuid: windows[i].getAttribute("id") + "-right",
+                    anchor: "Right",
+                    maxConnections: -1
+                });
+            }
+
+            // Load connections
+            episodeData.connections.forEach(function (connection) {
+                instance.connect({
+                    uuids: ["stop" + connection.from + "-" + connection.fromNode,
+                        "stop" + connection.to + "-" + connection.toNode],
+                    overlays: overlays
+                });
+            });
+
+            instance.draggable(windows);
+        });
+    });
+
+    jsPlumb.fire("jsPlumbDemoLoaded", instance);
 });

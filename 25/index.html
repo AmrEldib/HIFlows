@@ -1,8 +1,6 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
-
 <head>
-
     <title>HI #25</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -10,84 +8,45 @@
     <link rel="stylesheet" href="demo.css">
     <link rel="stylesheet" href="vesper.css">
 </head>
-
 <body data-demo-id="perimeterAnchors" data-library="dom">
-    <div>
-            
-    <div class="audio-set">
-        <audio id="player" src="25.mp3" controlls="controlls" ontimeupdate="zTimeUpdate()"></audio>
-
-        <div id="art" class="audio-art">
-            <div style="background-image: url(hi.png);background-repeat: no-repeat;background-size: 64px 64px;"></div>
-        </div>
-
-        <div class="audio-progress">
-          <span id="currenttime" class="audio-currenttime">0:00:00</span>
-          <progress id="time" class="audio-time" value="0" max="0"></progress>
-          <span id="totaltime" class="audio-totaltime">0:00:00</span>
-        </div>
-           
-        <div class="audio-controlls">   
-          <button id="play" onclick="zPlayPause()" class="audio-play"><icon>play</icon></button>
-          <button onclick="zStop()" class="audio-stop"><icon>stop</icon></button>
-          <button onclick="zMute()" class="audio-mute"><icon>volumeoff</icon></button>
-          <button onclick="zVolumeDown()" class="audio-vdown"><icon>volumedown</icon></button>
-          <button onclick="zVolumeUp()" class="audio-vup"><icon>volumeup</icon></button>
-        </div>
-
-        <div class="audio-info">
-          <span id="artist"></span>
-          <span id="album"></span>
-          <div class="waveform"></div>
-        </div>
-
-        <a href="http://firezenk.github.com/html5player/"><div class="brand">vesper</div></a>
-    </div>
-    
-        
-        <!--<audio id="bg_audio" src="25.mp3" type="audio/mpeg" controls>
-            Your browser does not support HTML5 audio.
-        </audio>-->
-    </div>
-    
     <div id="main">
-        <!-- demo -->
         <div class="demo chart-demo" id="chart-demo">
             <div class="explanation">
-                <!--<i class="fa fa-info-circle"></i>-->
-                <h4>Hello Internet #25: Fantasy Stage</h4>
+                <h4 id="episodeTitle">#TITLE#</h4>
             </div>
-            
-            <div class="window" id="step1">Holidays?</div>
-            <div class="window" id="step2">Humblebrags</div>
-            <div class="window" id="step3">Old News</div>
-            <div class="window" id="step4">Hollowbrags are original!</div>
-            <div class="window" id="step5">Brag Humble</div>
-            <div class="window" id="step6">Don Knuth</div>
-            <div class="window" id="step7">White Streak of toothpaste</div>
-            <div class="window" id="step8">Embarrassing, but not Humble?</div>
-            <div class="window" id="step9">YouTube Notifications</div>
-            
-            <!--
-            <div class="shape" id="step1" data-shape="Ellipse" data-rotation="10">Holidays?</div>
-            <div class="shape" id="step2" data-shape="Ellipse" data-rotation="50">Humblebrags</div>
-            <div class="shape" data-shape="Ellipse">Old News</div>
-            <div class="shape" data-shape="Ellipse">Hollowbrags are original!</div>
-            <div class="shape" data-shape="Ellipse">Brag Humble</div>
-            <div class="shape" data-shape="Ellipse">Don Knuth</div>
-            <div class="shape" data-shape="Ellipse">Embarrassing, but not Humble?</div>
-            <div class="shape" data-shape="Ellipse">White Streak of toothpaste</div>-->
-            
-           <!-- <div class="shape" data-shape="Rectangle">Rectangle</div>
-            <div class="shape" data-shape="Circle">Circle</div>
-            <div class="shape" data-shape="Diamond">Diamond</div>
-            <div class="shape" data-shape="Triangle" style="left:700px;top:380px;">Triangle</div>
-            <div class="shape _90" data-shape="Triangle" data-rotation="90" style="left:60px;top:500px;">90&#176; rotation</div>-->
+        </div>        
+    </div>
+
+    <div>
+        <div class="audio-set">
+            <audio id="player" src="http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/54734035e4b0eb3c99392c30/1416839221425/25.mp3/original/25.mp3" controlls="controlls" ontimeupdate="zTimeUpdate()"></audio>
+            <div id="art" class="audio-art">
+                <div style="background-image: url(hi.png);background-repeat: no-repeat;background-size: 64px 64px;"></div>
+            </div>
+            <div class="audio-progress">
+                <span id="currenttime" class="audio-currenttime">0:00:00</span>
+                <progress id="time" class="audio-time" value="0" max="0"></progress>
+                <span id="totaltime" class="audio-totaltime">0:00:00</span>
+            </div>
+
+            <div class="audio-controlls">
+                <button id="play" onclick="zPlayPause()" class="audio-play"><icon>play</icon></button>
+                <button onclick="zStop()" class="audio-stop"><icon>stop</icon></button>
+                <button onclick="zMute()" class="audio-mute"><icon>volumeoff</icon></button>
+                <button onclick="zVolumeDown()" class="audio-vdown"><icon>volumedown</icon></button>
+                <button onclick="zVolumeUp()" class="audio-vup"><icon>volumeup</icon></button>
+            </div>
+            <div class="audio-info">
+                <span id="artist"></span>
+                <span id="album"></span>
+                <div class="waveform"></div>
+            </div>
+            <a href="http://firezenk.github.com/html5player/"><div class="brand">vesper</div></a>
         </div>
-        <!-- /demo -->
     </div>
 
     <!-- JS -->
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
     <!-- support lib for bezier stuff -->
     <script src="../lib/jsBezier-0.6.js"></script>
     <!-- event adapter -->
@@ -120,27 +79,22 @@
     <script src="../script/connector-editors.js"></script>
     <!-- SVG renderer -->
     <script src="../script/renderers-svg.js"></script>
-
     <!-- vml renderer -->
     <script src="../script/renderers-vml.js"></script>
-
     <!-- common adapter -->
     <script src="../script/base-library-adapter.js"></script>
     <!-- no library jsPlumb adapter -->
     <script src="../script/dom.jsPlumb.js"></script>
     <!-- /JS -->
-
     <!--  demo code -->
     <script src="demo.js"></script>
-    
+
     <!-- audio player -->
     <script src="vendor/id3.min.js"></script>
     <script src="vendor/observer.js"></script>
     <script src="vendor/wavesurfer.js"></script>
     <script src="vendor/webaudio.js"></script>
-    <script src="vendor/drawer.js"></script>    
+    <script src="vendor/drawer.js"></script>
     <script src="vesper.js"></script>
-
 </body>
-
 </html>
