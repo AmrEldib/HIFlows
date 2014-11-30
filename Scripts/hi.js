@@ -1,3 +1,6 @@
+/// <reference path="jquery-2.1.1.min.js" />
+/// <reference path="bootstrap.min.js" />
+
 jsPlumb.ready(function () {
 
     var color = "gray";
@@ -13,8 +16,7 @@ jsPlumb.ready(function () {
         EndpointHoverStyle: { fillStyle: "#ec9f2e" },
         Container: "chart-demo"
     });
-
-
+    
     // suspend drawing and initialize.
     instance.doWhileSuspended(function () {
         // declare some common values:
@@ -22,35 +24,44 @@ jsPlumb.ready(function () {
 			// use three-arg spec to create two different arrows with the common values:
 			overlays = [
 				["Arrow", { location: 0.7 }, arrowCommon]
-				//,[ "Arrow", { location:0.3, direction:-1 }, arrowCommon ]
 			];
 
-        $.getJSON("25.json", function (episodeData) {
+        $.getJSON("data.json", function (episodeData) {
 
-            // Set episode title
-            $("#episodeTitle").html(episodeData.podcast + " #" + episodeData.episode.number + ": " + episodeData.episode.title);
+            var episodeTitle = episodeData.podcast + " #" + episodeData.episode.number + ": " + episodeData.episode.title;
+
+            // Set episode info
+            $("#episodeTitle").html(episodeTitle);
+            document.title = episodeTitle;
+            $("#showNotesLink").attr("href", episodeData.episode.showNotesUrl);
+            $("#discussLink").attr("href", episodeData.episode.discussionUrl);
+            $("#chartMaker").html(episodeData.episode.chartMaker.name);
+            $("#chartMaker").attr("href", episodeData.episode.chartMaker.url);
+
+            // Set audio source
+            var audioPlayer = document.getElementById("audioPlayer");
+            audioPlayer.src = episodeData.episode.url;
+            audioPlayer.load();
 
             // Load stops
             episodeData.stops.forEach(function (stop) {
                 $("#chart-demo").append("<div class='windowContainer'><span class='window' id='stop"
                     + stop.id
                     + "' data-playerseek='"
-                    + stop.seek.min + ":" + stop.seek.sec
+                    + ((stop.seek.min * 60) + stop.seek.sec)
                     + "'>"
-                    + stop.id + " - " + stop.title
+                    //+ stop.id + " - "
+                    + stop.title
                     + "</span></div>");
-                $("#stop" + stop.id).css("left", stop.position.left);
-                $("#stop" + stop.id).css("top", stop.position.top);
+                $("#stop" + stop.id).css("left", (stop.position.left * 150));
+                $("#stop" + stop.id).css("top", (stop.position.top * 150));
             });
             
             $(".window").click(function () {
                 console.log(this.dataset.playerseek);
-                var audioPlayer = $("#player");
-                //if (!audioPlayer.paused) {
                 console.log(audioPlayer.seekable);
                 console.log(audioPlayer);
-                    audioPlayer.currentTime = 1000;
-                //}
+                audioPlayer.currentTime = this.dataset.playerseek;
             });
 
             // add endpoints, giving them a UUID.

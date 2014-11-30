@@ -9,19 +9,19 @@
 }
 
 /** OPEN SANS FONT **/
-@font-face {
+/*@font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url("OpenSans-Regular.ttf") format('truetype'), url("OpenSans.woff") format('woff');
-}
+}*/
 
-body {
+/*body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: whitesmoke;
-}
+}*/
 
 #headerWrapper {
     width: 100%;
@@ -38,7 +38,7 @@ body {
     box-shadow: 0px 1px #eee;
 }
 
-#header {
+/*#header {
     margin-top: 0;
     height: 44px;
     font-size: 13px;
@@ -47,7 +47,7 @@ body {
     line-height: 44px;
     max-width: 1000px;
     width: 80%;
-}
+}*/
 
 @media screen and (max-width:1000px) {
     #header {
@@ -117,7 +117,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    text-align: center;
+    /*text-align: center;*/
     position: relative;
     #max-width: 1200px;
     #max-height: 1000px;
@@ -126,11 +126,11 @@ body {
 .demo {
     position: relative;
     width: 100%;
-    background-color: white;
-    overflow: auto;
-    margin-top: 0px;
+    /*background-color: white;
+    overflow: auto;*/
+    /*margin-top: 0px;
     margin-bottom: 25px;
-    height: 800px;
+    height: 800px;*/
 }
 
 .explanation {
@@ -293,7 +293,7 @@ path, ._jsPlumb_endpoint {
     }
 
     .window a {
-        font-family: helvetica;
+        /*font-family: helvetica;*/
     }
 
 .demo-links, .library-links {

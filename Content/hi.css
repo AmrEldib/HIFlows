@@ -1,8 +1,18 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
 .windowContainer {
     width: 180px;
     height: 80px;
     line-height: 80px;
     text-align: center;
+}
+
+.navbar-text {
+    margin: 0;
+    width: 80%;
 }
 
 /** ELEMENTS **/
@@ -19,3 +29,11 @@
         border: 1px solid #323acb;
         color: #323acb;
     }
+
+audio {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
