@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/bundle.xsd">
+  <settings>
+    <!--Determines if the bundle file should be automatically optimized after creation/update.-->
+    <minify>true</minify>
+    <!--Determine whether to generate/re-generate this bundle on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+  </settings>
+  <!--The order of the <file> elements determines the order of the files in the bundle.-->
+  <files>
+    <file>/Scripts/jsplumb/jsBezier-0.6.js</file>
+    <file>/Scripts/jsplumb/mottle-0.4.js</file>
+    <file>/Scripts/jsplumb/biltong-0.2.js</file>
+    <file>/Scripts/jsplumb/katavorio-0.4.js</file>    
+    <file>/Scripts/jsplumb/util.js</file>
+    <file>/Scripts/jsplumb/browser-util.js</file>
+    <file>/Scripts/jsplumb/dom-adapter.js</file>
+    <file>/Scripts/jsplumb/jsPlumb.js</file>
+    <file>/Scripts/jsplumb/endpoint.js</file>
+    <file>/Scripts/jsplumb/connection.js</file>
+    <file>/Scripts/jsplumb/anchors.js</file>
+    <file>/Scripts/jsplumb/defaults.js</file>
+    <file>/Scripts/jsplumb/connectors-bezier.js</file>
+    <file>/Scripts/jsplumb/connectors-statemachine.js</file>
+    <file>/Scripts/jsplumb/connectors-flowchart.js</file>
+    <file>/Scripts/jsplumb/connector-editors.js</file>
+    <file>/Scripts/jsplumb/renderers-svg.js</file>
+    <file>/Scripts/jsplumb/renderers-vml.js</file>
+    <file>/Scripts/jsplumb/base-library-adapter.js</file>
+    <file>/Scripts/jsplumb/dom.jsPlumb.js</file>
+
+    <!--
+    <file>/Scripts/jsplumb/jquery.jsPlumb.js</file>
+    <file>/Scripts/jsplumb/overlays-guidelines.js</file>
+    
+    <script src="../Scripts/jsplumb/jsBezier-0.6.min.js"></script>    
+    <script src="../Scripts/jsplumb/mottle-0.4.min.js"></script>    
+    <script src="../Scripts/jsplumb/biltong-0.2.min.js"></script>    
+    <script src="../Scripts/jsplumb/katavorio-0.4.min.js"></script>    
+    <script src="../Scripts/jsplumb/util.min.js"></script>
+    <script src="../Scripts/jsplumb/browser-util.min.js"></script>    
+    <script src="../Scripts/jsplumb/dom-adapter.min.js"></script>    
+    <script src="../Scripts/jsplumb/jsPlumb.min.js"></script>    
+    <script src="../Scripts/jsplumb/endpoint.min.js"></script>    
+    <script src="../Scripts/jsplumb/connection.min.js"></script>    
+    <script src="../Scripts/jsplumb/anchors.min.js"></script>    
+    <script src="../Scripts/jsplumb/defaults.min.js"></script>    
+    <script src="../Scripts/jsplumb/connectors-bezier.min.js"></script>    
+    <script src="../Scripts/jsplumb/connectors-statemachine.min.js"></script>    
+    <script src="../Scripts/jsplumb/connectors-flowchart.min.js"></script>
+    <script src="../Scripts/jsplumb/connector-editors.min.js"></script>    
+    <script src="../Scripts/jsplumb/renderers-svg.min.js"></script>    
+    <script src="../Scripts/jsplumb/renderers-vml.min.js"></script>    
+    <script src="../Scripts/jsplumb/base-library-adapter.min.js"></script>    
+    <script src="../Scripts/jsplumb/dom.jsPlumb.min.js"></script>
+    
+    -->
+    
+    
+  </files>
+</bundle>
