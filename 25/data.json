@@ -152,8 +152,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 8,
+                "sec": 22
             }
         },
         {
@@ -164,8 +164,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 8,
+                "sec": 58
             }
         },
         {
@@ -176,8 +176,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 10,
+                "sec": 36
             }
         },
         {
@@ -188,8 +188,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 9,
+                "sec": 47
             }
         },
         {
@@ -200,8 +200,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 11,
+                "sec": 39
             }
         },
         {
@@ -212,8 +212,8 @@
                 "left": 5.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 12,
+                "sec": 42
             }
         },
         {
@@ -224,20 +224,20 @@
                 "left": 5.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 14,
+                "sec": 10
             }
         },
         {
             "id": 19,
-            "title": "Harry's <br/>Code: hiHoliday",
+            "title": "Harry's <br/>Code: <b>hiHoliday</b>",
             "position": {
                 "top": 6.5,
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 15,
+                "sec": 19
             }
         },
         {
@@ -248,8 +248,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 17,
+                "sec": 32
             }
         },
         {
@@ -260,8 +260,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 18,
+                "sec": 40
             }
         },
         {
@@ -272,8 +272,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 20,
+                "sec": 13
             }
         },
         {
@@ -284,8 +284,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 22,
+                "sec": 35
             }
         },
         {
@@ -296,8 +296,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 23,
+                "sec": 15
             }
         },
         {
@@ -308,8 +308,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 24,
+                "sec": 3
             }
         },
         {
@@ -320,8 +320,8 @@
                 "left": 3.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 25,
+                "sec": 12
             }
         },
         {
@@ -332,8 +332,8 @@
                 "left": 2
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 28,
+                "sec": 48
             }
         },
         {
@@ -344,8 +344,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 32,
+                "sec": 43
             }
         },
         {
@@ -356,8 +356,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 31,
+                "sec": 10
             }
         },
         {
@@ -368,8 +368,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 33,
+                "sec": 19
             }
         },
         {
@@ -380,8 +380,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 33,
+                "sec": 38
             }
         },
         {
@@ -392,7 +392,7 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
+                "min": 34,
                 "sec": 0
             }
         },
@@ -404,8 +404,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 37,
+                "sec": 48
             }
         },
         {
@@ -416,20 +416,20 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 39,
+                "sec": 35
             }
         },
         {
             "id": 35,
-            "title": "Grey Family <br/></3 Stuff",
+            "title": "Grey Family<br/>doesn't like Stuff",
             "position": {
                 "top": 14,
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 40,
+                "sec": 38
             }
         },
         {
@@ -440,8 +440,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 42,
+                "sec": 7
             }
         },
         {
@@ -452,8 +452,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 42,
+                "sec": 22
             }
         },
         {
@@ -464,8 +464,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 43,
+                "sec": 40
             }
         },
         {
@@ -476,8 +476,8 @@
                 "left": 6
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 44,
+                "sec": 31
             }
         },
         {
@@ -488,8 +488,8 @@
                 "left": 4.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 44,
+                "sec": 40
             }
         },
         {
@@ -500,8 +500,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 45,
+                "sec": 44
             }
         },
         {
@@ -512,8 +512,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 46,
+                "sec": 48
             }
         },
         {
@@ -524,8 +524,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 47,
+                "sec": 38
             }
         },
         {
@@ -536,8 +536,8 @@
                 "left": 4.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 49,
+                "sec": 50
             }
         },
         {
@@ -548,7 +548,7 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
+                "min": 48,
                 "sec": 0
             }
         },
@@ -560,20 +560,20 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 51,
+                "sec": 15
             }
         },
         {
             "id": 47,
-            "title": "Audible<br/>Grey's Pick:<br/>The Hobbit",
+            "title": "Audible<br/>Grey's Pick:<br/><b>The Hobbit</b>",
             "position": {
                 "top": 19,
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 52,
+                "sec": 25
             }
         },
         {
@@ -584,8 +584,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 53,
+                "sec": 40
             }
         },
         {
@@ -596,7 +596,7 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
+                "min": 54,
                 "sec": 0
             }
         },
@@ -608,8 +608,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 55,
+                "sec": 27
             }
         },
         {
@@ -620,8 +620,8 @@
                 "left": 6
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 57,
+                "sec": 11
             }
         },
         {
@@ -632,8 +632,8 @@
                 "left": 6
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 58,
+                "sec": 42
             }
         },
         {
@@ -644,8 +644,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 59,
+                "sec": 17
             }
         },
         {
@@ -656,8 +656,8 @@
                 "left": 4
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 62,
+                "sec": 44
             }
         },
         {
@@ -668,8 +668,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 65,
+                "sec": 10
             }
         },
         {
@@ -680,8 +680,8 @@
                 "left": 0.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 66,
+                "sec": 10
             }
         },
         {
@@ -692,8 +692,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 66,
+                "sec": 45
             }
         },
         {
@@ -704,7 +704,7 @@
                 "left": 2
             },
             "seek": {
-                "min": 0,
+                "min": 69,
                 "sec": 0
             }
         },
@@ -716,8 +716,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 69,
+                "sec": 35
             }
         },
         {
@@ -728,8 +728,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 70,
+                "sec": 6
             }
         },
         {
@@ -740,8 +740,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 72,
+                "sec": 14
             }
         },
         {
@@ -752,8 +752,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 72,
+                "sec": 2
             }
         },
         {
@@ -764,8 +764,8 @@
                 "left": 5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 75,
+                "sec": 21
             }
         },
         {
@@ -776,8 +776,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 75,
+                "sec": 58
             }
         },
         {
@@ -788,8 +788,8 @@
                 "left": 0.5
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 77,
+                "sec": 53
             }
         },
         {
@@ -800,8 +800,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 79,
+                "sec": 21
             }
         },
         {
@@ -812,8 +812,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 81,
+                "sec": 16
             }
         },
         {
@@ -824,8 +824,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 82,
+                "sec": 40
             }
         },
         {
@@ -836,8 +836,8 @@
                 "left": 1
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 86,
+                "sec": 46
             }
         },
         {
@@ -848,8 +848,8 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 89,
+                "sec": 23
             }
         },
         {
@@ -860,20 +860,20 @@
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 90,
+                "sec": 8
             }
         },
         {
             "id": 72,
-            "title": "Brag Humble",
+            "title": "Win <br/>the battle<br/>for<br/>Brag Humble",
             "position": {
                 "top": 40,
                 "left": 3
             },
             "seek": {
-                "min": 0,
-                "sec": 0
+                "min": 91,
+                "sec": 9
             }
         }
     ],
@@ -1339,6 +1339,18 @@
             "fromNode": "right",
             "to": 48,
             "toNode": "left"
+        },
+        {
+            "from": 48,
+            "fromNode": "bottom",
+            "to": 58,
+            "toNode": "top"
+        },
+        {
+            "from": 58,
+            "fromNode": "right",
+            "to": 48,
+            "toNode": "bottom"
         },
         {
             "from": 48,
