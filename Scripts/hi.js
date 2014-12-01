@@ -1,7 +1,7 @@
 /// <reference path="jquery-2.1.1.min.js" />
 /// <reference path="bootstrap.min.js" />
 
-$.getJSON("data.min.js", function (episodeData) {
+$.getJSON("data.min.json", function (episodeData) {
 
     jsPlumb.ready(function () {
 
