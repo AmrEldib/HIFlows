@@ -1,32 +1,32 @@
 /// <reference path="jquery-2.1.1.min.js" />
 /// <reference path="bootstrap.min.js" />
 
-jsPlumb.ready(function () {
+$.getJSON("data.min.js", function (episodeData) {
 
-    var color = "gray";
+    jsPlumb.ready(function () {
 
-    var instance = jsPlumb.getInstance({
-        // notice the 'curviness' argument to this Bezier curve.  the curves on this page are far smoother
-        // than the curves on the first demo, which use the default curviness value.			
-        Connector: ["Bezier", { curviness: 50 }],
-        DragOptions: { cursor: "pointer", zIndex: 2000 },
-        PaintStyle: { strokeStyle: color, lineWidth: 2 },
-        EndpointStyle: { radius: 9, fillStyle: color },
-        HoverPaintStyle: { strokeStyle: "#ec9f2e" },
-        EndpointHoverStyle: { fillStyle: "#ec9f2e" },
-        Container: "chart-demo"
-    });
-    
-    // suspend drawing and initialize.
-    instance.doWhileSuspended(function () {
-        // declare some common values:
-        var arrowCommon = { foldback: 0.7, fillStyle: color, width: 14 },
-			// use three-arg spec to create two different arrows with the common values:
-			overlays = [
-				["Arrow", { location: 0.7 }, arrowCommon]
-			];
+        var color = "gray";
 
-        $.getJSON("data.json", function (episodeData) {
+        var instance = jsPlumb.getInstance({
+            // notice the 'curviness' argument to this Bezier curve.  the curves on this page are far smoother
+            // than the curves on the first demo, which use the default curviness value.			
+            Connector: ["Bezier", { curviness: 50 }],
+            DragOptions: { cursor: "pointer", zIndex: 2000 },
+            PaintStyle: { strokeStyle: color, lineWidth: 2 },
+            EndpointStyle: { radius: 9, fillStyle: color },
+            HoverPaintStyle: { strokeStyle: "#ec9f2e" },
+            EndpointHoverStyle: { fillStyle: "#ec9f2e" },
+            Container: "chart-demo"
+        });
+
+        // suspend drawing and initialize.
+        instance.doWhileSuspended(function () {
+            // declare some common values:
+            var arrowCommon = { foldback: 0.7, fillStyle: color, width: 14 },
+                // use three-arg spec to create two different arrows with the common values:
+                overlays = [
+                    ["Arrow", { location: 0.7 }, arrowCommon]
+                ];
 
             var episodeTitle = episodeData.podcast + " #" + episodeData.episode.number + ": " + episodeData.episode.title;
 
@@ -56,7 +56,7 @@ jsPlumb.ready(function () {
                 $("#stop" + stop.id).css("left", (stop.position.left * 150));
                 $("#stop" + stop.id).css("top", (stop.position.top * 150));
             });
-            
+
             $(".window").click(function () {
                 console.log(this.dataset.playerseek);
                 console.log(audioPlayer.seekable);
