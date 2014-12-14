@@ -49,6 +49,8 @@ $.getJSON("data.json", function (episodeData) {
                     + stop.id
                     + "' data-playerseek='"
                     + ((stop.seek.min * 60) + stop.seek.sec)
+                    + "' data-toggle='tooltip' data-placement='top' title='"
+                    + (stop.description || "")
                     + "'>"
                     //+ stop.id + " - "
                     + stop.title
@@ -57,11 +59,16 @@ $.getJSON("data.json", function (episodeData) {
                 $("#stop" + stop.id).css("top", (stop.position.top * 150));
             });
 
-            $(".window").click(function () {
-                console.log(this.dataset.playerseek);
-                console.log(audioPlayer.seekable);
-                console.log(audioPlayer);
-                audioPlayer.currentTime = this.dataset.playerseek;
+            $(".window").click(function (e) {
+                if (e.target.tagName == 'A') {
+                    e.stopPropagation();
+                }
+                else {
+                    console.log(this.dataset.playerseek);
+                    console.log(audioPlayer.seekable);
+                    console.log(audioPlayer);
+                    audioPlayer.currentTime = this.dataset.playerseek;
+                }
             });
 
             // add endpoints, giving them a UUID.
@@ -99,6 +106,11 @@ $.getJSON("data.json", function (episodeData) {
                     overlays: overlays
                 });
             });
+
+            // Initialize tooltips
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
 
             instance.draggable(windows);
         });

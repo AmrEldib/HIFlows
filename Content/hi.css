@@ -37,3 +37,7 @@ audio {
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
+
+.windowContainer a {
+    text-decoration: underline;
+}
