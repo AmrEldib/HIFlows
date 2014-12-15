@@ -17,7 +17,7 @@
             "title": "Podcast Recording Issues",
             "position": {
                 "top": 1,
-                "left": 3
+                "left": 1
             },
             "description": "",
             "seek": {
@@ -29,7 +29,7 @@
             "id": 2,
             "title": "Cross Talk with <br/><a href='http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b0ff7e4b045184d92fc0f/1418399736719/?format=1000w' target='_blank'>Indian Dude</a>",
             "position": {
-                "top": 2,
+                "top": 1,
                 "left": 3
             },
             "description": "",
@@ -42,8 +42,8 @@
             "id": 3,
             "title": "Headphones <br/>stop working",
             "position": {
-                "top": 1.5,
-                "left": 1
+                "top": 1.2,
+                "left": 5.2
             },
             "description": "",
             "seek": {
@@ -53,10 +53,10 @@
         },
         {
             "id": 4,
-            "title": "Follow Up",
+            "title": "<br/><br/><br/><br/>Follow Up<br/><br/><br/><br/>",
             "position": {
-                "top": 2.5,
-                "left": 1
+                "top": 2,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -68,8 +68,8 @@
             "id": 5,
             "title": "Flowchart <br/>(meta level: Inception)",
             "position": {
-                "top": 1.2,
-                "left": 5.2
+                "top": 2,
+                "left": 5
             },
             "description": "Grey and Brady like",
             "seek": {
@@ -82,9 +82,9 @@
             "title": "Hello Internet <br/>Animation is back",
             "position": {
                 "top": 2,
-                "left": 6.5
+                "left": 1
             },
-            "description": "Grey likes the Style. Brady is not so sure, thinks it's dark",
+            "description": "Grey likes the Style. Brady thinks it is dark",
             "seek": {
                 "min": 3,
                 "sec": 45
@@ -95,9 +95,9 @@
             "title": "Wreckage Redaction",
             "position": {
                 "top": 3,
-                "left": 6
+                "left": 5
             },
-            "description": "Winner of 'Place Crash Painting over brand",
+            "description": "Winner of Plane Crash Painting over brand",
             "seek": {
                 "min": 4,
                 "sec": 40
@@ -107,8 +107,8 @@
             "id": 8,
             "title": "US Legality",
             "position": {
-                "top": 2,
-                "left": 4.5
+                "top": 3.5,
+                "left": 4
             },
             "description": "Might fall under Evidence Tempering",
             "seek": {
@@ -121,7 +121,7 @@
             "title": "Norwegian Passport <br/>and Currency",
             "position": {
                 "top": 3,
-                "left": 3
+                "left": 1
             },
             "description": "Grey likes, Brady thinks someone might pull the plug",
             "seek": {
@@ -133,8 +133,8 @@
             "id": 10,
             "title": "Dulles Airport",
             "position": {
-                "top": 3.5,
-                "left": 4.5
+                "top": 4,
+                "left": 3
             },
             "description": "Among Worst Airport",
             "seek": {
@@ -144,427 +144,428 @@
         },
         {
             "id": 11,
-            "title": "Nobody changes <br/>the default",
+            "title": "AT AT Rider thing <br/>Sardines stuffing",
             "position": {
                 "top": 4.5,
                 "left": 4.5
             },
-            "description": "",
+            "description": "Bizarre",
             "seek": {
-                "min": 7,
-                "sec": 18
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 12,
-            "title": "Brady doesn't",
+            "title": "Opening Scene to <br/>Saving Private Ryan",
             "position": {
                 "top": 4,
                 "left": 3
             },
-            "description": "",
+            "description": "Nazi Shooting",
             "seek": {
-                "min": 8,
-                "sec": 22
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 13,
-            "title": "MacWorld 2007, <br/>iPhone Keybote",
+            "title": "<img src='SeaTractor.jpg' alt='Burg Island' />",
             "position": {
                 "top": 5,
                 "left": 3
             },
-            "description": "",
+            "description": "Burg Island",
             "seek": {
-                "min": 8,
-                "sec": 58
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 14,
-            "title": "iPod! PHONE! <br/>Internet Communicator...",
+            "title": "Wikipedia Witch hunt",
             "position": {
                 "top": 4.5,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 10,
-                "sec": 36
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 15,
-            "title": "Magical Swipes",
+            "title": "Black Mirror <br/>releases in USA",
             "position": {
                 "top": 5.5,
                 "left": 5
             },
-            "description": "",
+            "description": "Also, new Christmas special coming",
             "seek": {
-                "min": 9,
-                "sec": 47
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 16,
-            "title": "Place Crash <br/>Corner",
+            "title": "HI <a href='http://store.dftba.com/products/hello-internet-shirt' target='_blank'>merchandise</a> <br/>and <a href='http://www.patreon.com/hellointernet' target='_blank'>Patreon</a>",
             "position": {
                 "top": 6,
                 "left": 3
             },
-            "description": "",
+            "description": "Doo dleee doot",
             "seek": {
-                "min": 11,
-                "sec": 39
+                "min": 26,
+                "sec": 41
             }
         },
         {
             "id": 17,
-            "title": "Painted over logo",
+            "title": "Doodleeee dooot",
             "position": {
                 "top": 6.5,
                 "left": 5.5
             },
-            "description": "",
+            "description": "Oh, Brady",
             "seek": {
-                "min": 12,
-                "sec": 42
+                "min": 30,
+                "sec": 46
             }
         },
         {
             "id": 18,
-            "title": "Aircraft Redaction",
+            "title": "A Tweet shocks Brady",
             "position": {
                 "top": 8,
                 "left": 5.5
             },
-            "description": "",
+            "description": "Grey has a Christmas tree",
             "seek": {
-                "min": 14,
-                "sec": 10
+                "min": 31,
+                "sec": 11
             }
         },
         {
             "id": 19,
-            "title": "Harry's <br/>Code: <b>hiHoliday</b>",
+            "title": "Brady class Grey a Scrooge!",
             "position": {
                 "top": 6.5,
                 "left": 1
             },
+            "description": "",
             "seek": {
-                "min": 15,
-                "sec": 19
+                "min": 31,
+                "sec": 43
             }
         },
         {
             "id": 20,
-            "title": "Sick of <br/>each other",
+            "title": "Decoration Plans?",
             "position": {
                 "top": 7,
                 "left": 3
             },
-            "description": "",
+            "description": "Starts on Dec. 5",
             "seek": {
-                "min": 17,
-                "sec": 32
+                "min": 33,
+                "sec": 1
             }
         },
         {
             "id": 21,
-            "title": "Grey gets first class <br/>on standby",
+            "title": "Brady invites himself <br/>to Grey's House",
             "position": {
                 "top": 8,
                 "left": 3
             },
-            "description": "",
+            "description": "He'll bring decorations",
             "seek": {
-                "min": 18,
-                "sec": 40
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 22,
-            "title": "And business <br/>class!",
+            "title": "Brady makes it <br/>to India",
             "position": {
                 "top": 9,
                 "left": 1
             },
-            "description": "",
+            "description": "Haran. Brady Haran",
             "seek": {
-                "min": 20,
-                "sec": 13
+                "min": 36,
+                "sec": 6
             }
         },
         {
             "id": 23,
-            "title": "Brady cradled <br/>his cameras",
+            "title": "Commonwealth <br/>Science Conference",
             "position": {
                 "top": 9,
                 "left": 3
             },
             "description": "",
             "seek": {
-                "min": 22,
-                "sec": 35
+                "min": 37,
+                "sec": 10
             }
         },
         {
             "id": 24,
-            "title": "Instructions must <br/>be pictograms",
+            "title": "Selfie with Science",
             "position": {
                 "top": 10,
                 "left": 3
             },
-            "description": "",
+            "description": "Incredible response",
             "seek": {
-                "min": 23,
-                "sec": 15
+                "min": 39,
+                "sec": 25
             }
         },
         {
             "id": 25,
-            "title": "International <br/>airports don't...",
+            "title": "How famous is <br/>the <a href='https://en.wikipedia.org/wiki/Commonwealth_of_Nations' target='_blank'>Commonwealth</a>",
             "position": {
                 "top": 10,
                 "left": 5
             },
-            "description": "",
+            "description": "mmm...",
             "seek": {
-                "min": 24,
-                "sec": 3
+                "min": 40,
+                "sec": 55
             }
         },
         {
             "id": 26,
-            "title": "People in <br/>airports are <br/>idiots",
+            "title": "Australia likes winning sports <br/>and knows Commonwealth",
             "position": {
                 "top": 11,
                 "left": 3.5
             },
             "description": "",
             "seek": {
-                "min": 25,
-                "sec": 12
+                "min": 42,
+                "sec": 8
             }
         },
         {
             "id": 27,
-            "title": "Are iPads <br/>large or small?",
+            "title": "Brady meets <br/><a href='https://en.wikipedia.org/wiki/Prince_Andrew,_Duke_of_York' target='_blank'>Prince Andrew</a>",
             "position": {
                 "top": 11,
                 "left": 2
             },
-            "description": "",
+            "description": "Doesn't do selfies",
             "seek": {
-                "min": 28,
-                "sec": 48
+                "min": 45,
+                "sec": 28
             }
         },
         {
             "id": 28,
-            "title": "Airport lounge",
+            "title": "Hopey <br/>Inventor of Selfie",
             "position": {
                 "top": 12,
                 "left": 3
             },
-            "description": "",
+            "description": "Or, is he?",
             "seek": {
-                "min": 32,
-                "sec": 43
+                "min": 49,
+                "sec": 16
             }
         },
         {
             "id": 29,
-            "title": "Dulles is <br/>bad",
+            "title": "<a href='https://en.wikipedia.org/wiki/Raman_spectroscopy' target='_blank'>Raman Spectroscopy</a>",
             "position": {
                 "top": 12,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 31,
-                "sec": 10
+                "min": 53,
+                "sec": 38
             }
         },
         {
             "id": 30,
-            "title": "Blame Brady",
+            "title": "<a href='https://en.wikipedia.org/wiki/Raman_Research_Institute' target='_blank'>Raman Institute</a>",
             "position": {
                 "top": 13,
                 "left": 3
             },
-            "description": "",
+            "description": "Bangalore, India",
             "seek": {
-                "min": 33,
-                "sec": 19
-            }
-        },
-        {
-            "id": 31,
-            "title": "Only worth it <br/>if 3.5+ Hrs",
-            "position": {
-                "top": 11.8,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 33,
-                "sec": 38
-            }
-        },
-        {
-            "id": 32,
-            "title": "Flight Delays",
-            "position": {
-                "top": 13,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 34,
-                "sec": 0
-            }
-        },
-        {
-            "id": 33,
-            "title": "Grey's Parents <br/>love Brady",
-            "position": {
-                "top": 14,
-                "left": 3
-            },
-            "description": "",
-            "seek": {
-                "min": 37,
+                "min": 53,
                 "sec": 48
             }
         },
         {
+            "id": 31,
+            "title": "Rock Specialist",
+            "position": {
+                "top": 11.8,
+                "left": 5
+            },
+            "description": "Realllllly into rocks",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 32,
+            "title": "C.V. Raman's Walking Stick (<a href='https://www.youtube.com/watch?v=pdwiwuLVzaE' target='_blank'>Brady's Video</a>)",
+            "position": {
+                "top": 13,
+                "left": 5
+            },
+            "description": "",
+            "seek": {
+                "min": 54,
+                "sec": 49
+            }
+        },
+        {
+            "id": 33,
+            "title": "Brand new sponsor: <br/><a href='https://braintreepayments.com/podcast' target='_blank'>Braintree</a>",
+            "position": {
+                "top": 14,
+                "left": 3
+            },
+            "description": "Online Payments",
+            "seek": {
+                "min": 47,
+                "sec": 24
+            }
+        },
+        {
             "id": 34,
-            "title": "Grey's Dad <br/>gives Brady<br/> Harry's blades",
+            "title": "Grey's New Kindle",
             "position": {
                 "top": 14,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 39,
-                "sec": 35
+                "min": 57,
+                "sec": 45
             }
         },
         {
             "id": 35,
-            "title": "Grey Family<br/>doesn't like Stuff",
+            "title": "<small>Text Justification rant</small>",
             "position": {
                 "top": 14,
                 "left": 5
             },
-            "description": "",
+            "description": "Actually pretty quick one",
             "seek": {
-                "min": 40,
-                "sec": 38
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 36,
-            "title": "Irish + US<br/>Passport designs",
+            "title": "<h1>Buttons</h1>",
             "position": {
                 "top": 15,
                 "left": 3
             },
-            "description": "",
+            "description": "... are the new text justification",
             "seek": {
-                "min": 42,
-                "sec": 7
+                "min": 60,
+                "sec": 46
             }
         },
         {
             "id": 37,
-            "title": "MURICA!",
+            "title": "Amazon lost it",
             "position": {
                 "top": 15,
                 "left": 1
             },
-            "description": "",
+            "description": "Fire, Echo, Kindle",
             "seek": {
-                "min": 42,
-                "sec": 22
+                "min": 70,
+                "sec": 7
             }
         },
         {
             "id": 38,
-            "title": "Pictures on <br/>the pages",
+            "title": "Amazon's <a href='https://www.youtube.com/watch?v=KkOCeAtKHIc' target='_blank'>awful commercial</a> <br/>and its <a href='https://www.youtube.com/watch?v=GijLoiVkmYI' target='_blank'>parody</a>",
             "position": {
                 "top": 15,
                 "left": 5
             },
             "description": "",
             "seek": {
-                "min": 43,
-                "sec": 40
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 39,
-            "title": "Why would <br/>you leave <br/>MURICA?",
+            "title": "Review Coming up",
             "position": {
                 "top": 16,
                 "left": 6
             },
             "description": "",
             "seek": {
-                "min": 44,
-                "sec": 31
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 40,
-            "title": "Eagle on <br/>main page",
+            "title": "<br/><br/><br/><br/><br/>Star Wars<br/><br/><br/><br/><br/>",
             "position": {
                 "top": 16,
                 "left": 4.5
             },
             "description": "",
             "seek": {
-                "min": 44,
-                "sec": 40
+                "min": 81,
+                "sec": 5
             }
         },
         {
             "id": 41,
-            "title": "Irelands's is <br/>similar, but<br/>toned down",
+            "title": "<a href='https://www.youtube.com/watch?v=OMOVFvcNfvE' target='_blank'>Trailer</a>",
             "position": {
                 "top": 16,
                 "left": 1
             },
-            "description": "",
+            "description": "Grey says do not click this link",
             "seek": {
-                "min": 45,
-                "sec": 44
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 42,
-            "title": "<span class='glyphicon glyphicon-thumbs-up' aria-hidden='true'></span> Ireland<br/><span class='glyphicon glyphicon-thumbs-down' aria-hidden='true'></span> MURICA",
+            "title": "Brady insists on <br/>watching the movie",
             "position": {
                 "top": 16.5,
                 "left": 3
             },
             "description": "",
             "seek": {
-                "min": 46,
-                "sec": 48
+                "min": 82,
+                "sec": 25
             }
         },
         {
             "id": 43,
-            "title": "Brady needs<br/>a Visa",
+            "title": "Grey will watch <br/>the trailer",
             "position": {
                 "top": 17.5,
                 "left": 3
             },
-            "description": "",
+            "description": "Brady is nervous",
             "seek": {
                 "min": 47,
                 "sec": 38
@@ -572,142 +573,142 @@
         },
         {
             "id": 44,
-            "title": "Library!",
+            "title": "<h1>HUGE SIGH</h1>",
             "position": {
                 "top": 17,
                 "left": 4.5
             },
             "description": "",
             "seek": {
-                "min": 49,
-                "sec": 50
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 45,
-            "title": "Indian <br/>Bureaucracy<br/>is bad",
+            "title": "Brady falls for <br/><a href='https://www.youtube.com/watch?v=plwVRYEQG_I' target='_blank'>fan-made trailer</a>",
             "position": {
                 "top": 17,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 48,
+                "min": 0,
                 "sec": 0
             }
         },
         {
             "id": 46,
-            "title": "3-4 days,<br/>no bribes",
+            "title": "LOL for JJ Abrams",
             "position": {
                 "top": 18,
                 "left": 5
             },
-            "description": "",
+            "description": "Lots of Likes",
             "seek": {
-                "min": 51,
-                "sec": 15
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 47,
-            "title": "Audible<br/>Grey's Pick:<br/><b>The Hobbit</b>",
+            "title": "Brady wants <br/>scene-by-scene dissection",
             "position": {
                 "top": 19,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 52,
-                "sec": 25
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 48,
-            "title": "<br/><br/><br/><br/><br/>Alabama<br/><br/><br/><br/><br/>",
+            "title": "<img src='stormtrooper.jpg' alt='Helmet-less Stormtrooper' />",
             "position": {
                 "top": 20,
                 "left": 3
             },
-            "description": "",
+            "description": "Helmet-less Stormtrooper",
             "seek": {
-                "min": 53,
-                "sec": 40
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 49,
-            "title": "Nothing but<br/>love for<br/>Derek",
+            "title": "<img src='droid.jpg' alt='Silly soccerball droid' />",
             "position": {
                 "top": 19,
                 "left": 5
             },
-            "description": "",
+            "description": "Silly soccerball droid",
             "seek": {
-                "min": 54,
+                "min": 0,
                 "sec": 0
             }
         },
         {
             "id": 50,
-            "title": "Get away<br/>with nothing",
+            "title": "<img src='troopers.jpg' alt='Troopers' />",
             "position": {
                 "top": 20,
                 "left": 5
             },
-            "description": "",
+            "description": "Quite cool",
             "seek": {
-                "min": 55,
-                "sec": 27
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 51,
-            "title": "Instant nerdiness",
+            "title": "<img src='speeder.jpg' alt='Woman on Speeder' />",
             "position": {
                 "top": 21,
                 "left": 6
             },
-            "description": "",
+            "description": "Woman on speeder",
             "seek": {
-                "min": 57,
-                "sec": 11
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 52,
-            "title": "Grey shoots guns",
+            "title": "<img src='xwings.jpg' alt='X Wings' />",
             "position": {
                 "top": 22,
                 "left": 6
             },
-            "description": "",
+            "description": "X Wings",
             "seek": {
-                "min": 58,
-                "sec": 42
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 53,
-            "title": "Surprisingly easy<br/>to shoot",
+            "title": "<img src='lightsaber.jpg' alt='Lightsaber' />",
             "position": {
                 "top": 23,
                 "left": 5
             },
-            "description": "",
+            "description": "Lightsaber",
             "seek": {
-                "min": 59,
-                "sec": 17
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 54,
-            "title": "Favorites",
+            "title": "<img src='falcon.jpg' alt='Millenium Falcon' />",
             "position": {
                 "top": 22,
                 "left": 4
             },
-            "description": "",
+            "description": "Millenium Falcon",
             "seek": {
                 "min": 62,
                 "sec": 44
@@ -715,296 +716,126 @@
         },
         {
             "id": 55,
-            "title": "Destin's Family<br/>is great",
+            "title": "More Star Wars <br/>discussions coming up",
             "position": {
                 "top": 20,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 65,
-                "sec": 10
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 56,
-            "title": "Delicacy",
+            "title": "Brady had dinner <br/>with someone awesome",
             "position": {
                 "top": 21,
                 "left": 0.5
             },
             "description": "",
             "seek": {
-                "min": 66,
-                "sec": 10
+                "min": 0,
+                "sec": 0
             }
         },
         {
             "id": 57,
-            "title": "Strawberry Jello,<br/>Whipped Cream,<br/>Pretzels",
+            "title": "Grey doesn't like surprises",
             "position": {
                 "top": 22,
                 "left": 1
             },
             "description": "",
             "seek": {
-                "min": 66,
-                "sec": 45
-            }
-        },
-        {
-            "id": 58,
-            "title": "<span class='glyphicon glyphicon-thumbs-up' aria-hidden='true'></span> Food",
-            "position": {
-                "top": 23,
-                "left": 2
-            },
-            "description": "",
-            "seek": {
-                "min": 69,
+                "min": 0,
                 "sec": 0
             }
         },
         {
-            "id": 59,
-            "title": "<br/><br/><br/><br/><br/><br/>Random Acts<br/>of<br/>Intelligence<br/><br/><br/><br/><br/><br/>",
+            "id": 58,
+            "title": "<a href='http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b1077e4b092fbeab3b8b2/1418399864313/?format=1000w' target='_blank'>Brady in bow tie, with elderly gentleman</a>",
             "position": {
-                "top": 26,
-                "left": 3
+                "top": 23,
+                "left": 2
             },
-            "description": "",
+            "description": "Brady had dinner with Darth Vader",
             "seek": {
-                "min": 69,
-                "sec": 35
-            }
-        },
-        {
-            "id": 60,
-            "title": "Nothing is small<br/>to Destin",
-            "position": {
-                "top": 24,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 70,
-                "sec": 6
-            }
-        },
-        {
-            "id": 61,
-            "title": "Incredible Stage<br/>for Brady",
-            "position": {
-                "top": 26,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 72,
-                "sec": 14
-            }
-        },
-        {
-            "id": 62,
-            "title": "Grey's public<br/>appearance",
-            "position": {
-                "top": 27,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 72,
-                "sec": 2
-            }
-        },
-        {
-            "id": 63,
-            "title": "250-400 Hellos",
-            "position": {
-                "top": 29,
-                "left": 5
-            },
-            "description": "",
-            "seek": {
-                "min": 75,
-                "sec": 21
-            }
-        },
-        {
-            "id": 64,
-            "title": "Signing an<br/>iPhone",
-            "position": {
-                "top": 23.5,
-                "left": 1
-            },
-            "description": "",
-            "seek": {
-                "min": 75,
-                "sec": 58
-            }
-        },
-        {
-            "id": 65,
-            "title": "Humblebrag",
-            "position": {
-                "top": 24.5,
-                "left": 0.5
-            },
-            "description": "",
-            "seek": {
-                "min": 77,
-                "sec": 53
-            }
-        },
-        {
-            "id": 66,
-            "title": "Celebrity for<br/>3 hours",
-            "position": {
-                "top": 26,
-                "left": 1
-            },
-            "description": "",
-            "seek": {
-                "min": 79,
-                "sec": 21
-            }
-        },
-        {
-            "id": 67,
-            "title": "Lots of<br/>HI listeners",
-            "position": {
-                "top": 27,
-                "left": 1
-            },
-            "description": "",
-            "seek": {
-                "min": 81,
-                "sec": 16
-            }
-        },
-        {
-            "id": 68,
-            "title": "Don't look for<br/>Grey's face",
-            "position": {
-                "top": 28,
-                "left": 1
-            },
-            "description": "",
-            "seek": {
-                "min": 82,
-                "sec": 40
-            }
-        },
-        {
-            "id": 69,
-            "title": "Creepy people finding<br/>Grey in the Mile of Pi",
-            "position": {
-                "top": 30,
-                "left": 1
-            },
-            "description": "",
-            "seek": {
-                "min": 86,
-                "sec": 46
-            }
-        },
-        {
-            "id": 70,
-            "title": "Great Experience",
-            "position": {
-                "top": 30,
-                "left": 3
-            },
-            "description": "",
-            "seek": {
-                "min": 89,
-                "sec": 23
-            }
-        },
-        {
-            "id": 71,
-            "title": "Next one on<br/>the moon!",
-            "position": {
-                "top": 31,
-                "left": 3
-            },
-            "description": "",
-            "seek": {
-                "min": 90,
-                "sec": 8
-            }
-        },
-        {
-            "id": 72,
-            "title": "Win <br/>the battle<br/>for<br/>Brag Humble",
-            "position": {
-                "top": 40,
-                "left": 3
-            },
-            "description": "",
-            "seek": {
-                "min": 91,
-                "sec": 9
+                "min": 0,
+                "sec": 0
             }
         }
     ],
     "connections": [
         {
             "from": 1,
-            "fromNode": "bottom",
+            "fromNode": "right",
             "to": 2,
-            "toNode": "top"
+            "toNode": "left"
         },
         {
             "from": 2,
-            "fromNode": "left",
+            "fromNode": "right",
             "to": 3,
-            "toNode": "right"
+            "toNode": "left"
         },
         {
             "from": 3,
+            "fromNode": "top",
+            "to": 1,
+            "toNode": "top"
+        },
+        {
+            "from": 1,
             "fromNode": "bottom",
             "to": 4,
             "toNode": "top"
         },
         {
             "from": 4,
-            "fromNode": "right",
-            "to": 2,
-            "toNode": "left"
-        },
-        {
-            "from": 2,
-            "fromNode": "right",
+            "fromNode": "top",
             "to": 5,
             "toNode": "left"
         },
         {
             "from": 5,
             "fromNode": "bottom",
+            "to": 4,
+            "toNode": "right"
+        },
+        {
+            "from": 4,
+            "fromNode": "top",
             "to": 6,
             "toNode": "top"
         },
         {
-            "from": 5,
-            "fromNode": "bottom",
-            "to": 8,
+            "from": 6,
+            "fromNode": "right",
+            "to": 4,
+            "toNode": "left"
+        },
+        {
+            "from": 4,
+            "fromNode": "right",
+            "to": 7,
             "toNode": "top"
         },
         {
-            "from": 6,
+            "from": 7,
             "fromNode": "bottom",
-            "to": 7,
+            "to": 8,
             "toNode": "right"
         },
         {
-            "from": 7,
+            "from": 8,
             "fromNode": "top",
-            "to": 5,
-            "toNode": "bottom"
+            "to": 4,
+            "toNode": "right"
         },
         {
-            "from": 8,
+            "from": 4,
             "fromNode": "left",
             "to": 9,
             "toNode": "top"
@@ -1012,554 +843,8 @@
         {
             "from": 9,
             "fromNode": "right",
-            "to": 10,
+            "to": 4,
             "toNode": "left"
-        },
-        {
-            "from": 10,
-            "fromNode": "bottom",
-            "to": 11,
-            "toNode": "top"
-        },
-        {
-            "from": 11,
-            "fromNode": "left",
-            "to": 12,
-            "toNode": "right"
-        },
-        {
-            "from": 12,
-            "fromNode": "bottom",
-            "to": 13,
-            "toNode": "top"
-        },
-        {
-            "from": 13,
-            "fromNode": "left",
-            "to": 14,
-            "toNode": "right"
-        },
-        {
-            "from": 14,
-            "fromNode": "bottom",
-            "to": 13,
-            "toNode": "left"
-        },
-        {
-            "from": 13,
-            "fromNode": "right",
-            "to": 15,
-            "toNode": "left"
-        },
-        {
-            "from": 15,
-            "fromNode": "bottom",
-            "to": 13,
-            "toNode": "right"
-        },
-        {
-            "from": 13,
-            "fromNode": "bottom",
-            "to": 16,
-            "toNode": "top"
-        },
-        {
-            "from": 16,
-            "fromNode": "right",
-            "to": 17,
-            "toNode": "left"
-        },
-        {
-            "from": 17,
-            "fromNode": "bottom",
-            "to": 18,
-            "toNode": "top"
-        },
-        {
-            "from": 18,
-            "fromNode": "left",
-            "to": 16,
-            "toNode": "bottom"
-        },
-        {
-            "from": 16,
-            "fromNode": "left",
-            "to": 19,
-            "toNode": "right"
-        },
-        {
-            "from": 19,
-            "fromNode": "bottom",
-            "to": 20,
-            "toNode": "left"
-        },
-        {
-            "from": 20,
-            "fromNode": "bottom",
-            "to": 21,
-            "toNode": "top"
-        },
-        {
-            "from": 21,
-            "fromNode": "left",
-            "to": 22,
-            "toNode": "top"
-        },
-        {
-            "from": 22,
-            "fromNode": "bottom",
-            "to": 23,
-            "toNode": "left"
-        },
-        {
-            "from": 23,
-            "fromNode": "bottom",
-            "to": 24,
-            "toNode": "top"
-        },
-        {
-            "from": 24,
-            "fromNode": "right",
-            "to": 25,
-            "toNode": "left"
-        },
-        {
-            "from": 25,
-            "fromNode": "bottom",
-            "to": 26,
-            "toNode": "right"
-        },
-        {
-            "from": 26,
-            "fromNode": "left",
-            "to": 27,
-            "toNode": "right"
-        },
-        {
-            "from": 27,
-            "fromNode": "bottom",
-            "to": 28,
-            "toNode": "top"
-        },
-        {
-            "from": 28,
-            "fromNode": "left",
-            "to": 29,
-            "toNode": "right"
-        },
-        {
-            "from": 29,
-            "fromNode": "bottom",
-            "to": 28,
-            "toNode": "left"
-        },
-        {
-            "from": 28,
-            "fromNode": "bottom",
-            "to": 30,
-            "toNode": "left"
-        },
-        {
-            "from": 30,
-            "fromNode": "top",
-            "to": 28,
-            "toNode": "bottom"
-        },
-        {
-            "from": 28,
-            "fromNode": "right",
-            "to": 31,
-            "toNode": "left"
-        },
-        {
-            "from": 31,
-            "fromNode": "bottom",
-            "to": 32,
-            "toNode": "top"
-        },
-        {
-            "from": 32,
-            "fromNode": "left",
-            "to": 33,
-            "toNode": "top"
-        },
-        {
-            "from": 33,
-            "fromNode": "top",
-            "to": 34,
-            "toNode": "top"
-        },
-        {
-            "from": 34,
-            "fromNode": "right",
-            "to": 33,
-            "toNode": "left"
-        },
-        {
-            "from": 33,
-            "fromNode": "top",
-            "to": 35,
-            "toNode": "top"
-        },
-        {
-            "from": 35,
-            "fromNode": "left",
-            "to": 33,
-            "toNode": "right"
-        },
-        {
-            "from": 33,
-            "fromNode": "bottom",
-            "to": 36,
-            "toNode": "top"
-        },
-        {
-            "from": 36,
-            "fromNode": "top",
-            "to": 37,
-            "toNode": "top"
-        },
-        {
-            "from": 37,
-            "fromNode": "right",
-            "to": 36,
-            "toNode": "left"
-        },
-        {
-            "from": 36,
-            "fromNode": "right",
-            "to": 38,
-            "toNode": "left"
-        },
-        {
-            "from": 38,
-            "fromNode": "right",
-            "to": 39,
-            "toNode": "top"
-        },
-        {
-            "from": 39,
-            "fromNode": "left",
-            "to": 38,
-            "toNode": "bottom"
-        },
-        {
-            "from": 38,
-            "fromNode": "bottom",
-            "to": 40,
-            "toNode": "right"
-        },
-        {
-            "from": 40,
-            "fromNode": "left",
-            "to": 36,
-            "toNode": "right"
-        },
-        {
-            "from": 36,
-            "fromNode": "left",
-            "to": 41,
-            "toNode": "top"
-        },
-        {
-            "from": 41,
-            "fromNode": "right",
-            "to": 36,
-            "toNode": "bottom"
-        },
-        {
-            "from": 36,
-            "fromNode": "bottom",
-            "to": 42,
-            "toNode": "top"
-        },
-        {
-            "from": 42,
-            "fromNode": "bottom",
-            "to": 43,
-            "toNode": "top"
-        },
-        {
-            "from": 43,
-            "fromNode": "top",
-            "to": 44,
-            "toNode": "left"
-        },
-        {
-            "from": 44,
-            "fromNode": "bottom",
-            "to": 43,
-            "toNode": "right"
-        },
-        {
-            "from": 43,
-            "fromNode": "top",
-            "to": 45,
-            "toNode": "top"
-        },
-        {
-            "from": 45,
-            "fromNode": "right",
-            "to": 43,
-            "toNode": "left"
-        },
-        {
-            "from": 43,
-            "fromNode": "right",
-            "to": 46,
-            "toNode": "top"
-        },
-        {
-            "from": 46,
-            "fromNode": "bottom",
-            "to": 43,
-            "toNode": "right"
-        },
-        {
-            "from": 43,
-            "fromNode": "bottom",
-            "to": 47,
-            "toNode": "top"
-        },
-        {
-            "from": 47,
-            "fromNode": "right",
-            "to": 48,
-            "toNode": "top"
-        },
-        {
-            "from": 48,
-            "fromNode": "top",
-            "to": 49,
-            "toNode": "left"
-        },
-        {
-            "from": 49,
-            "fromNode": "bottom",
-            "to": 48,
-            "toNode": "top"
-        },
-        {
-            "from": 48,
-            "fromNode": "right",
-            "to": 50,
-            "toNode": "left"
-        },
-        {
-            "from": 50,
-            "fromNode": "bottom",
-            "to": 48,
-            "toNode": "right"
-        },
-        {
-            "from": 48,
-            "fromNode": "right",
-            "to": 51,
-            "toNode": "top"
-        },
-        {
-            "from": 51,
-            "fromNode": "left",
-            "to": 48,
-            "toNode": "right"
-        },
-        {
-            "from": 48,
-            "fromNode": "right",
-            "to": 52,
-            "toNode": "top"
-        },
-        {
-            "from": 52,
-            "fromNode": "bottom",
-            "to": 53,
-            "toNode": "top"
-        },
-        {
-            "from": 53,
-            "fromNode": "left",
-            "to": 54,
-            "toNode": "right"
-        },
-        {
-            "from": 54,
-            "fromNode": "top",
-            "to": 48,
-            "toNode": "right"
-        },
-        {
-            "from": 48,
-            "fromNode": "top",
-            "to": 55,
-            "toNode": "right"
-        },
-        {
-            "from": 55,
-            "fromNode": "bottom",
-            "to": 56,
-            "toNode": "top"
-        },
-        {
-            "from": 56,
-            "fromNode": "bottom",
-            "to": 57,
-            "toNode": "left"
-        },
-        {
-            "from": 57,
-            "fromNode": "right",
-            "to": 48,
-            "toNode": "left"
-        },
-        {
-            "from": 48,
-            "fromNode": "bottom",
-            "to": 58,
-            "toNode": "top"
-        },
-        {
-            "from": 58,
-            "fromNode": "right",
-            "to": 48,
-            "toNode": "bottom"
-        },
-        {
-            "from": 48,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "top"
-        },
-        {
-            "from": 59,
-            "fromNode": "top",
-            "to": 60,
-            "toNode": "left"
-        },
-        {
-            "from": 60,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "top"
-        },
-        {
-            "from": 59,
-            "fromNode": "right",
-            "to": 61,
-            "toNode": "left"
-        },
-        {
-            "from": 61,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "right"
-        },
-        {
-            "from": 59,
-            "fromNode": "right",
-            "to": 62,
-            "toNode": "top"
-        },
-        {
-            "from": 62,
-            "fromNode": "left",
-            "to": 59,
-            "toNode": "right"
-        },
-        {
-            "from": 59,
-            "fromNode": "right",
-            "to": 63,
-            "toNode": "top"
-        },
-        {
-            "from": 63,
-            "fromNode": "left",
-            "to": 59,
-            "toNode": "bottom"
-        },
-        {
-            "from": 59,
-            "fromNode": "top",
-            "to": 64,
-            "toNode": "right"
-        },
-        {
-            "from": 64,
-            "fromNode": "left",
-            "to": 65,
-            "toNode": "top"
-        },
-        {
-            "from": 65,
-            "fromNode": "right",
-            "to": 64,
-            "toNode": "bottom"
-        },
-        {
-            "from": 64,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "top"
-        },
-        {
-            "from": 59,
-            "fromNode": "left",
-            "to": 66,
-            "toNode": "right"
-        },
-        {
-            "from": 66,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "left"
-        },
-        {
-            "from": 59,
-            "fromNode": "left",
-            "to": 67,
-            "toNode": "right"
-        },
-        {
-            "from": 67,
-            "fromNode": "bottom",
-            "to": 59,
-            "toNode": "left"
-        },
-        {
-            "from": 59,
-            "fromNode": "left",
-            "to": 68,
-            "toNode": "top"
-        },
-        {
-            "from": 68,
-            "fromNode": "bottom",
-            "to": 69,
-            "toNode": "top"
-        },
-        {
-            "from": 69,
-            "fromNode": "right",
-            "to": 59,
-            "toNode": "bottom"
-        },
-        {
-            "from": 59,
-            "fromNode": "bottom",
-            "to": 70,
-            "toNode": "top"
-        },
-        {
-            "from": 70,
-            "fromNode": "bottom",
-            "to": 71,
-            "toNode": "top"
-        },
-        {
-            "from": 71,
-            "fromNode": "bottom",
-            "to": 72,
-            "toNode": "top"
         }
     ]
 }

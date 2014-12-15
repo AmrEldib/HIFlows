@@ -52,7 +52,7 @@ $.getJSON("data.json", function (episodeData) {
                     + "' data-toggle='tooltip' data-placement='top' title='"
                     + (stop.description || "")
                     + "'>"
-                    //+ stop.id + " - "
+                    + stop.id + " - "
                     + stop.title
                     + "</span></div>");
                 $("#stop" + stop.id).css("left", (stop.position.left * 150));
