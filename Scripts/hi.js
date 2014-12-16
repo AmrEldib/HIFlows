@@ -64,10 +64,10 @@ $.getJSON("data.json", function (episodeData) {
                     e.stopPropagation();
                 }
                 else {
-                    //console.log(this.dataset.playerseek);
+                    console.log(this.dataset.playerseek);
                     //console.log(audioPlayer.seekable);
                     //console.log(audioPlayer);
-                    if (this.dataset.playerseek != "0:0") {
+                    if (this.dataset.playerseek != "0") {
                         audioPlayer.currentTime = this.dataset.playerseek;
                     }
                 }
@@ -117,6 +117,4 @@ $.getJSON("data.json", function (episodeData) {
             instance.draggable(windows);
         });
     });
-
-    jsPlumb.fire("jsPlumbDemoLoaded", instance);
 });
