@@ -49,7 +49,7 @@ $.getJSON("data.json", function (episodeData) {
                     + stop.id
                     + "' data-playerseek='"
                     + ((stop.seek.min * 60) + stop.seek.sec)
-                    + "' data-toggle='tooltip' data-placement='top' title='"
+                    + "' data-toggle='tooltip' data-placement='top' data-original-title='"
                     + (stop.description || "")
                     + "'>"
                     //+ stop.id + " - "
@@ -111,7 +111,7 @@ $.getJSON("data.json", function (episodeData) {
 
             // Initialize tooltips
             $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
+                $('[data-toggle="tooltip"]').tooltip({ html: true });
             })
 
             instance.draggable(windows);

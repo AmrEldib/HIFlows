@@ -357,7 +357,7 @@
                 "top": 12,
                 "left": 1
             },
-            "description": "Doesn't do selfies",
+            "description": "Does not do selfies",
             "seek": {
                 "min": 45,
                 "sec": 28
@@ -370,7 +370,7 @@
                 "top": 13,
                 "left": 1
             },
-            "description": "Or, is he?",
+            "description": "<i>Or, is he?</i>",
             "seek": {
                 "min": 49,
                 "sec": 16
@@ -547,7 +547,7 @@
         },
         {
             "id": 42,
-            "title": "Brady insists on <br/>watching the movie",
+            "title": "Brady insists on <br/>watching the trailer",
             "position": {
                 "top": 23,
                 "left": 1
