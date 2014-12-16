@@ -134,7 +134,7 @@
             "title": "Dulles Airport",
             "position": {
                 "top": 4,
-                "left": 3
+                "left": 3.5
             },
             "description": "Among Worst Airport",
             "seek": {
@@ -146,8 +146,8 @@
             "id": 11,
             "title": "AT AT Rider thing <br/>Sardines stuffing",
             "position": {
-                "top": 4.5,
-                "left": 4.5
+                "top": 4,
+                "left": 5
             },
             "description": "Bizarre",
             "seek": {
@@ -159,8 +159,8 @@
             "id": 12,
             "title": "Opening Scene to <br/>Saving Private Ryan",
             "position": {
-                "top": 4,
-                "left": 3
+                "top": 5.5,
+                "left": 5
             },
             "description": "Nazi Shooting",
             "seek": {
@@ -172,8 +172,8 @@
             "id": 13,
             "title": "<img src='SeaTractor.jpg' alt='Burg Island' />",
             "position": {
-                "top": 5,
-                "left": 3
+                "top": 4.5,
+                "left": 0.5
             },
             "description": "Burg Island",
             "seek": {
@@ -183,10 +183,10 @@
         },
         {
             "id": 14,
-            "title": "Wikipedia Witch hunt",
+            "title": "Wikipedia <br/>Witch hunt",
             "position": {
-                "top": 4.5,
-                "left": 1
+                "top": 5.2,
+                "left": 3.5
             },
             "description": "",
             "seek": {
@@ -198,8 +198,8 @@
             "id": 15,
             "title": "Black Mirror <br/>releases in USA",
             "position": {
-                "top": 5.5,
-                "left": 5
+                "top": 6.5,
+                "left": 3.5
             },
             "description": "Also, new Christmas special coming",
             "seek": {
@@ -211,7 +211,7 @@
             "id": 16,
             "title": "HI <a href='http://store.dftba.com/products/hello-internet-shirt' target='_blank'>merchandise</a> <br/>and <a href='http://www.patreon.com/hellointernet' target='_blank'>Patreon</a>",
             "position": {
-                "top": 6,
+                "top": 8,
                 "left": 3
             },
             "description": "Doo dleee doot",
@@ -224,8 +224,8 @@
             "id": 17,
             "title": "Doodleeee dooot",
             "position": {
-                "top": 6.5,
-                "left": 5.5
+                "top": 9,
+                "left": 3
             },
             "description": "Oh, Brady",
             "seek": {
@@ -237,8 +237,8 @@
             "id": 18,
             "title": "A Tweet shocks Brady",
             "position": {
-                "top": 8,
-                "left": 5.5
+                "top": 10,
+                "left": 1
             },
             "description": "Grey has a Christmas tree",
             "seek": {
@@ -248,10 +248,10 @@
         },
         {
             "id": 19,
-            "title": "Brady class Grey a Scrooge!",
+            "title": "Brady calls Grey a Scrooge!",
             "position": {
-                "top": 6.5,
-                "left": 1
+                "top": 10,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -263,8 +263,8 @@
             "id": 20,
             "title": "Decoration Plans?",
             "position": {
-                "top": 7,
-                "left": 3
+                "top": 10,
+                "left": 5
             },
             "description": "Starts on Dec. 5",
             "seek": {
@@ -276,10 +276,10 @@
             "id": 21,
             "title": "Brady invites himself <br/>to Grey's House",
             "position": {
-                "top": 8,
+                "top": 11,
                 "left": 3
             },
-            "description": "He'll bring decorations",
+            "description": "He will bring decorations",
             "seek": {
                 "min": 0,
                 "sec": 0
@@ -287,10 +287,10 @@
         },
         {
             "id": 22,
-            "title": "Brady makes it <br/>to India",
+            "title": "Brady makes it <br/>to India with <br/> Journalistic superpowers",
             "position": {
-                "top": 9,
-                "left": 1
+                "top": 12,
+                "left": 3
             },
             "description": "Haran. Brady Haran",
             "seek": {
@@ -302,7 +302,7 @@
             "id": 23,
             "title": "Commonwealth <br/>Science Conference",
             "position": {
-                "top": 9,
+                "top": 13,
                 "left": 3
             },
             "description": "",
@@ -315,8 +315,8 @@
             "id": 24,
             "title": "Selfie with Science",
             "position": {
-                "top": 10,
-                "left": 3
+                "top": 11.5,
+                "left": 5
             },
             "description": "Incredible response",
             "seek": {
@@ -328,7 +328,7 @@
             "id": 25,
             "title": "How famous is <br/>the <a href='https://en.wikipedia.org/wiki/Commonwealth_of_Nations' target='_blank'>Commonwealth</a>",
             "position": {
-                "top": 10,
+                "top": 12.5,
                 "left": 5
             },
             "description": "mmm...",
@@ -339,10 +339,10 @@
         },
         {
             "id": 26,
-            "title": "Australia likes winning sports <br/>and knows Commonwealth",
+            "title": "Australia <br/>knows Commonwealth",
             "position": {
-                "top": 11,
-                "left": 3.5
+                "top": 13.5,
+                "left": 5
             },
             "description": "",
             "seek": {
@@ -354,8 +354,8 @@
             "id": 27,
             "title": "Brady meets <br/><a href='https://en.wikipedia.org/wiki/Prince_Andrew,_Duke_of_York' target='_blank'>Prince Andrew</a>",
             "position": {
-                "top": 11,
-                "left": 2
+                "top": 12,
+                "left": 1
             },
             "description": "Doesn't do selfies",
             "seek": {
@@ -367,8 +367,8 @@
             "id": 28,
             "title": "Hopey <br/>Inventor of Selfie",
             "position": {
-                "top": 12,
-                "left": 3
+                "top": 13,
+                "left": 1
             },
             "description": "Or, is he?",
             "seek": {
@@ -380,8 +380,8 @@
             "id": 29,
             "title": "<a href='https://en.wikipedia.org/wiki/Raman_spectroscopy' target='_blank'>Raman Spectroscopy</a>",
             "position": {
-                "top": 12,
-                "left": 1
+                "top": 14,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -393,8 +393,8 @@
             "id": 30,
             "title": "<a href='https://en.wikipedia.org/wiki/Raman_Research_Institute' target='_blank'>Raman Institute</a>",
             "position": {
-                "top": 13,
-                "left": 3
+                "top": 15,
+                "left": 1
             },
             "description": "Bangalore, India",
             "seek": {
@@ -406,8 +406,8 @@
             "id": 31,
             "title": "Rock Specialist",
             "position": {
-                "top": 11.8,
-                "left": 5
+                "top": 15,
+                "left": 3
             },
             "description": "Realllllly into rocks",
             "seek": {
@@ -417,9 +417,9 @@
         },
         {
             "id": 32,
-            "title": "C.V. Raman's Walking Stick (<a href='https://www.youtube.com/watch?v=pdwiwuLVzaE' target='_blank'>Brady's Video</a>)",
+            "title": "C.V. Raman's Walking Stick <br/>(<a href='https://www.youtube.com/watch?v=pdwiwuLVzaE' target='_blank'>Brady's Video</a>)",
             "position": {
-                "top": 13,
+                "top": 15,
                 "left": 5
             },
             "description": "",
@@ -432,7 +432,7 @@
             "id": 33,
             "title": "Brand new sponsor: <br/><a href='https://braintreepayments.com/podcast' target='_blank'>Braintree</a>",
             "position": {
-                "top": 14,
+                "top": 16,
                 "left": 3
             },
             "description": "Online Payments",
@@ -445,8 +445,8 @@
             "id": 34,
             "title": "Grey's New Kindle",
             "position": {
-                "top": 14,
-                "left": 1
+                "top": 17,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -458,7 +458,7 @@
             "id": 35,
             "title": "<small>Text Justification rant</small>",
             "position": {
-                "top": 14,
+                "top": 17,
                 "left": 5
             },
             "description": "Actually pretty quick one",
@@ -471,7 +471,7 @@
             "id": 36,
             "title": "<h1>Buttons</h1>",
             "position": {
-                "top": 15,
+                "top": 18.5,
                 "left": 3
             },
             "description": "... are the new text justification",
@@ -484,8 +484,8 @@
             "id": 37,
             "title": "Amazon lost it",
             "position": {
-                "top": 15,
-                "left": 1
+                "top": 20,
+                "left": 2
             },
             "description": "Fire, Echo, Kindle",
             "seek": {
@@ -497,8 +497,8 @@
             "id": 38,
             "title": "Amazon's <a href='https://www.youtube.com/watch?v=KkOCeAtKHIc' target='_blank'>awful commercial</a> <br/>and its <a href='https://www.youtube.com/watch?v=GijLoiVkmYI' target='_blank'>parody</a>",
             "position": {
-                "top": 15,
-                "left": 5
+                "top": 20,
+                "left": 4
             },
             "description": "",
             "seek": {
@@ -510,8 +510,8 @@
             "id": 39,
             "title": "Review Coming up",
             "position": {
-                "top": 16,
-                "left": 6
+                "top": 21,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -523,8 +523,8 @@
             "id": 40,
             "title": "<br/><br/><br/><br/><br/>Star Wars<br/><br/><br/><br/><br/>",
             "position": {
-                "top": 16,
-                "left": 4.5
+                "top": 22,
+                "left": 3.5
             },
             "description": "",
             "seek": {
@@ -536,7 +536,7 @@
             "id": 41,
             "title": "<a href='https://www.youtube.com/watch?v=OMOVFvcNfvE' target='_blank'>Trailer</a>",
             "position": {
-                "top": 16,
+                "top": 22,
                 "left": 1
             },
             "description": "Grey says do not click this link",
@@ -549,8 +549,8 @@
             "id": 42,
             "title": "Brady insists on <br/>watching the movie",
             "position": {
-                "top": 16.5,
-                "left": 3
+                "top": 23,
+                "left": 1
             },
             "description": "",
             "seek": {
@@ -562,8 +562,8 @@
             "id": 43,
             "title": "Grey will watch <br/>the trailer",
             "position": {
-                "top": 17.5,
-                "left": 3
+                "top": 24,
+                "left": 1
             },
             "description": "Brady is nervous",
             "seek": {
@@ -575,8 +575,8 @@
             "id": 44,
             "title": "<h1>HUGE SIGH</h1>",
             "position": {
-                "top": 17,
-                "left": 4.5
+                "top": 24.5,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -588,8 +588,8 @@
             "id": 45,
             "title": "Brady falls for <br/><a href='https://www.youtube.com/watch?v=plwVRYEQG_I' target='_blank'>fan-made trailer</a>",
             "position": {
-                "top": 17,
-                "left": 1
+                "top": 26,
+                "left": 3.2
             },
             "description": "",
             "seek": {
@@ -601,8 +601,8 @@
             "id": 46,
             "title": "LOL for JJ Abrams",
             "position": {
-                "top": 18,
-                "left": 5
+                "top": 27,
+                "left": 3
             },
             "description": "Lots of Likes",
             "seek": {
@@ -614,8 +614,8 @@
             "id": 47,
             "title": "Brady wants <br/>scene-by-scene dissection",
             "position": {
-                "top": 19,
-                "left": 1
+                "top": 28,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -627,8 +627,8 @@
             "id": 48,
             "title": "<img src='stormtrooper.jpg' alt='Helmet-less Stormtrooper' />",
             "position": {
-                "top": 20,
-                "left": 3
+                "top": 29,
+                "left": 2.7
             },
             "description": "Helmet-less Stormtrooper",
             "seek": {
@@ -640,8 +640,8 @@
             "id": 49,
             "title": "<img src='droid.jpg' alt='Silly soccerball droid' />",
             "position": {
-                "top": 19,
-                "left": 5
+                "top": 31,
+                "left": 2.8
             },
             "description": "Silly soccerball droid",
             "seek": {
@@ -653,8 +653,8 @@
             "id": 50,
             "title": "<img src='troopers.jpg' alt='Troopers' />",
             "position": {
-                "top": 20,
-                "left": 5
+                "top": 33,
+                "left": 2.2
             },
             "description": "Quite cool",
             "seek": {
@@ -666,8 +666,8 @@
             "id": 51,
             "title": "<img src='speeder.jpg' alt='Woman on Speeder' />",
             "position": {
-                "top": 21,
-                "left": 6
+                "top": 35,
+                "left": 1.8
             },
             "description": "Woman on speeder",
             "seek": {
@@ -679,8 +679,8 @@
             "id": 52,
             "title": "<img src='xwings.jpg' alt='X Wings' />",
             "position": {
-                "top": 22,
-                "left": 6
+                "top": 37,
+                "left": 2
             },
             "description": "X Wings",
             "seek": {
@@ -692,8 +692,8 @@
             "id": 53,
             "title": "<img src='lightsaber.jpg' alt='Lightsaber' />",
             "position": {
-                "top": 23,
-                "left": 5
+                "top": 39,
+                "left": 2.5
             },
             "description": "Lightsaber",
             "seek": {
@@ -705,8 +705,8 @@
             "id": 54,
             "title": "<img src='falcon.jpg' alt='Millenium Falcon' />",
             "position": {
-                "top": 22,
-                "left": 4
+                "top": 41,
+                "left": 2.3
             },
             "description": "Millenium Falcon",
             "seek": {
@@ -718,8 +718,8 @@
             "id": 55,
             "title": "More Star Wars <br/>discussions coming up",
             "position": {
-                "top": 20,
-                "left": 1
+                "top": 45,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -731,8 +731,8 @@
             "id": 56,
             "title": "Brady had dinner <br/>with someone awesome",
             "position": {
-                "top": 21,
-                "left": 0.5
+                "top": 46,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -744,8 +744,8 @@
             "id": 57,
             "title": "Grey doesn't like surprises",
             "position": {
-                "top": 22,
-                "left": 1
+                "top": 47,
+                "left": 3
             },
             "description": "",
             "seek": {
@@ -757,8 +757,8 @@
             "id": 58,
             "title": "<a href='http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b1077e4b092fbeab3b8b2/1418399864313/?format=1000w' target='_blank'>Brady in bow tie, with elderly gentleman</a>",
             "position": {
-                "top": 23,
-                "left": 2
+                "top": 52,
+                "left": 2.8
             },
             "description": "Brady had dinner with Darth Vader",
             "seek": {
@@ -845,6 +845,336 @@
             "fromNode": "right",
             "to": 4,
             "toNode": "left"
+        },
+        {
+            "from": 4,
+            "fromNode": "bottom",
+            "to": 10,
+            "toNode": "top"
+        },
+        {
+            "from": 10,
+            "fromNode": "right",
+            "to": 11,
+            "toNode": "left"
+        },
+        {
+            "from": 11,
+            "fromNode": "bottom",
+            "to": 12,
+            "toNode": "top"
+        },
+        {
+            "from": 12,
+            "fromNode": "left",
+            "to": 10,
+            "toNode": "right"
+        },
+        {
+            "from": 10,
+            "fromNode": "left",
+            "to": 13,
+            "toNode": "top"
+        },
+        {
+            "from": 13,
+            "fromNode": "right",
+            "to": 10,
+            "toNode": "left"
+        },
+        {
+            "from": 10,
+            "fromNode": "bottom",
+            "to": 14,
+            "toNode": "top"
+        },
+        {
+            "from": 14,
+            "fromNode": "bottom",
+            "to": 15,
+            "toNode": "top"
+        },
+        {
+            "from": 15,
+            "fromNode": "bottom",
+            "to": 16,
+            "toNode": "top"
+        },
+        {
+            "from": 16,
+            "fromNode": "bottom",
+            "to": 17,
+            "toNode": "top"
+        },
+        {
+            "from": 17,
+            "fromNode": "bottom",
+            "to": 18,
+            "toNode": "top"
+        },
+        {
+            "from": 18,
+            "fromNode": "right",
+            "to": 19,
+            "toNode": "left"
+        },
+        {
+            "from": 19,
+            "fromNode": "right",
+            "to": 20,
+            "toNode": "left"
+        },
+        {
+            "from": 20,
+            "fromNode": "bottom",
+            "to": 21,
+            "toNode": "top"
+        },
+        {
+            "from": 21,
+            "fromNode": "bottom",
+            "to": 22,
+            "toNode": "top"
+        },
+        {
+            "from": 22,
+            "fromNode": "bottom",
+            "to": 23,
+            "toNode": "top"
+        },
+        {
+            "from": 23,
+            "fromNode": "right",
+            "to": 24,
+            "toNode": "left"
+        },
+        {
+            "from": 24,
+            "fromNode": "bottom",
+            "to": 25,
+            "toNode": "top"
+        },
+        {
+            "from": 25,
+            "fromNode": "bottom",
+            "to": 26,
+            "toNode": "top"
+        },
+        {
+            "from": 26,
+            "fromNode": "left",
+            "to": 23,
+            "toNode": "right"
+        },
+        {
+            "from": 23,
+            "fromNode": "left",
+            "to": 27,
+            "toNode": "right"
+        },
+        {
+            "from": 27,
+            "fromNode": "bottom",
+            "to": 23,
+            "toNode": "left"
+        },
+        {
+            "from": 23,
+            "fromNode": "left",
+            "to": 28,
+            "toNode": "right"
+        },
+        {
+            "from": 28,
+            "fromNode": "right",
+            "to": 23,
+            "toNode": "left"
+        },
+        {
+            "from": 23,
+            "fromNode": "bottom",
+            "to": 29,
+            "toNode": "top"
+        },
+        {
+            "from": 29,
+            "fromNode": "bottom",
+            "to": 30,
+            "toNode": "top"
+        },
+        {
+            "from": 30,
+            "fromNode": "right",
+            "to": 31,
+            "toNode": "left"
+        },
+        {
+            "from": 31,
+            "fromNode": "right",
+            "to": 32,
+            "toNode": "left"
+        },
+        {
+            "from": 32,
+            "fromNode": "bottom",
+            "to": 33,
+            "toNode": "top"
+        },
+        {
+            "from": 33,
+            "fromNode": "bottom",
+            "to": 34,
+            "toNode": "top"
+        },
+        {
+            "from": 34,
+            "fromNode": "right",
+            "to": 35,
+            "toNode": "left"
+        },
+        {
+            "from": 35,
+            "fromNode": "left",
+            "to": 34,
+            "toNode": "right"
+        },
+        {
+            "from": 34,
+            "fromNode": "bottom",
+            "to": 36,
+            "toNode": "top"
+        },
+        {
+            "from": 36,
+            "fromNode": "bottom",
+            "to": 37,
+            "toNode": "top"
+        },
+        {
+            "from": 37,
+            "fromNode": "right",
+            "to": 38,
+            "toNode": "left"
+        },
+        {
+            "from": 38,
+            "fromNode": "bottom",
+            "to": 39,
+            "toNode": "top"
+        },
+        {
+            "from": 39,
+            "fromNode": "bottom",
+            "to": 40,
+            "toNode": "top"
+        },
+        {
+            "from": 40,
+            "fromNode": "left",
+            "to": 41,
+            "toNode": "right"
+        },
+        {
+            "from": 41,
+            "fromNode": "bottom",
+            "to": 42,
+            "toNode": "top"
+        },
+        {
+            "from": 42,
+            "fromNode": "bottom",
+            "to": 43,
+            "toNode": "top"
+        },
+        {
+            "from": 43,
+            "fromNode": "right",
+            "to": 44,
+            "toNode": "top"
+        },
+        {
+            "from": 44,
+            "fromNode": "bottom",
+            "to": 45,
+            "toNode": "top"
+        },
+        {
+            "from": 45,
+            "fromNode": "bottom",
+            "to": 46,
+            "toNode": "top"
+        },
+        {
+            "from": 46,
+            "fromNode": "bottom",
+            "to": 47,
+            "toNode": "top"
+        },
+        {
+            "from": 47,
+            "fromNode": "bottom",
+            "to": 48,
+            "toNode": "top"
+        },
+        {
+            "from": 48,
+            "fromNode": "bottom",
+            "to": 49,
+            "toNode": "top"
+        },
+        {
+            "from": 49,
+            "fromNode": "bottom",
+            "to": 50,
+            "toNode": "top"
+        },
+        {
+            "from": 50,
+            "fromNode": "bottom",
+            "to": 51,
+            "toNode": "top"
+        },
+        {
+            "from": 51,
+            "fromNode": "bottom",
+            "to": 52,
+            "toNode": "top"
+        },
+        {
+            "from": 52,
+            "fromNode": "bottom",
+            "to": 53,
+            "toNode": "top"
+        },
+        {
+            "from": 53,
+            "fromNode": "bottom",
+            "to": 54,
+            "toNode": "top"
+        },
+        {
+            "from": 54,
+            "fromNode": "bottom",
+            "to": 55,
+            "toNode": "top"
+        },
+        {
+            "from": 55,
+            "fromNode": "bottom",
+            "to": 56,
+            "toNode": "top"
+        },
+        {
+            "from": 56,
+            "fromNode": "bottom",
+            "to": 57,
+            "toNode": "top"
+        },
+        {
+            "from": 57,
+            "fromNode": "bottom",
+            "to": 58,
+            "toNode": "top"
         }
     ]
 }

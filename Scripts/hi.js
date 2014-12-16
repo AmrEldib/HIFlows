@@ -52,7 +52,7 @@ $.getJSON("data.json", function (episodeData) {
                     + "' data-toggle='tooltip' data-placement='top' title='"
                     + (stop.description || "")
                     + "'>"
-                    + stop.id + " - "
+                    //+ stop.id + " - "
                     + stop.title
                     + "</span></div>");
                 $("#stop" + stop.id).css("left", (stop.position.left * 150));
@@ -64,10 +64,12 @@ $.getJSON("data.json", function (episodeData) {
                     e.stopPropagation();
                 }
                 else {
-                    console.log(this.dataset.playerseek);
-                    console.log(audioPlayer.seekable);
-                    console.log(audioPlayer);
-                    audioPlayer.currentTime = this.dataset.playerseek;
+                    //console.log(this.dataset.playerseek);
+                    //console.log(audioPlayer.seekable);
+                    //console.log(audioPlayer);
+                    if (this.dataset.playerseek != "0:0") {
+                        audioPlayer.currentTime = this.dataset.playerseek;
+                    }
                 }
             });
 
