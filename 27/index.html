@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Hello Internet</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+    <link href="../Content/jsplumb/jsplumb.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../Content/hi.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #2C3E50;
+        }
+        #chart-demo {
+            background-color: #2C3E50;
+        }
+    </style>
+</head>
+
+<body data-demo-id="perimeterAnchors" data-library="dom">
+    <div id="header" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand" id="episodeTitle">
+                    Hello Internet
+                </p>
+            </div>
+            <div class="navbar-inner">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="showNotesLink" href="#" target="_blank">show notes</a>
+                    </li>
+                    <li>
+                        <a id="discussLink" href="#" target="_blank">discuss</a>
+                    </li>
+                    <li>
+                        <a id="discussLink" href="../index.html" target="_blank">all charts</a>
+                    </li>
+                    <li>
+                        <a class="btn" data-toggle="modal" data-target="#aboutDialog">
+                            about this chart
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav">
+                    <audio id="audioPlayer" controls preload="auto"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="body" class="container-fluid">
+        <div class="row">
+            <div id="main">
+                <div class="demo chart-demo" id="chart-demo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aboutDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">HI Flows</h4>
+                    <p>Flow charts of Hello Internet podcast</p>
+                </div>
+                <div class="modal-body">
+                    <p><a href="http://hellointernet.fm/" target="_blank">Hello Internet</a> is a two-dudes-talking podcast by <a href="http://www.cgpgrey.com/" target="_blank">CGP Grey</a> and <a href="http://www.bradyharan.com/" target="_blank">Brady Haran</a>.</p>
+                    <p>HI Flows is a fan-made project charting the flow of discussion of each episode. It's based on the charts made by fans on the <a href="http://www.reddit.com/r/CGPGrey/" target="_blank">Hello Internet Reddit page</a>.</p>
+                    <p>This episode is based on the chart made by: <a id="chartMaker" href="#" target="_blank">#</a></p>
+                    <p>This website is developed by <a href="http://www.amreldib.com" target="_blank">Amr Eldib</a></p>
+                    <p>The code for this site is open source and available on <a href="https://github.com/AmrEldib/HIFlows" target="_blank">GitHub</a>.</p>
+                    <p>If you have any ideas, found bugs, suggestions or any feedback, please <a href="https://github.com/AmrEldib/HIFlows/issues/new" target="_blank">submit an issue on GitHub</a>.</p>
+                    <br />
+                    <p>Built using <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="https://github.com/sporritt/jsPlumb" target="_blank">jsPlumb</a>, and bootstrap <a href="http://bootswatch.com/flatly/" target="_blank">Flatly theme</a>.</p>
+                    <p>The snowfall effect is made using <a href="https://github.com/loktar00/JQuery-Snowfall" target="_blank">jQuery-Snowfall</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>    
+    <script src="../Scripts/jsplumb/jsplumbfull.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>    
+    <script src="../Scripts/hi.min.js"></script>
+    <script src="../Scripts/snowfall.jquery.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-27286842-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        $(document).snowfall('clear');
+        $(document).snowfall({ image: "../img/snowflakes/flake.png", minSize: 10, maxSize: 32 });
+    </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+        "chartMaker": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "episode": {
+            "properties": {
+                "number": {
+                    "type": "number"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "showNotesUrl": {
+                    "type": "string"
+                },
+                "discussionUrl": {
+                    "type": "string"
+                },
+                "chartMaker": {
+                    "$ref": "#/definitions/chartMaker"
+                }
+            },
+            "type": "object"
+        },
+        "position": {
+            "properties": {
+                "top": {
+                    "type": "number"
+                },
+                "left": {
+                    "type": "number"
+                }
+            },
+            "type": "object"
+        },
+        "seek": {
+            "properties": {
+                "min": {
+                    "type": "number"
+                },
+                "sec": {
+                    "type": "number"
+                }
+            },
+            "type": "object"
+        },
+        "stop": {
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "position": {
+                    "$ref": "#/definitions/position"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "seek": {
+                    "$ref": "#/definitions/seek"
+                }
+            },
+            "type": "object"
+        },
+        "connection": {
+            "properties": {
+                "from": {
+                    "type": "number"
+                },
+                "fromNode": {
+                    "type": "string"
+                },
+                "to": {
+                    "type": "number"
+                },
+                "toNode": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "root": {
+            "properties": {
+                "podcast": {
+                    "type": "string"
+                },
+                "episode": {
+                    "$ref": "#/definitions/episode"
+                },
+                "stops": {
+                    "type": "array",
+                    "items": { "type": { "$ref": "#/definitions/stop" } }
+                },
+                "connections": {
+                    "type": "array",
+                    "items": { "type": { "$ref": "#/definitions/connection" } }
+                }
+            },
+            "type": "object"
+        }
+    },
+  "allOf": [
+    {
+      "$ref": "#/definitions/root"
+    }
+  ],
+  "type": "object"
+}
