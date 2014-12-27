@@ -1,3 +1,220 @@
-﻿{ 
-
+﻿{
+    "episodes": [
+        {
+            "id": 1,
+            "name": "",
+            "length": 2000,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 2,
+            "name": "",
+            "length": 3800,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 3,
+            "name": "",
+            "length": 3400,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 4,
+            "name": "",
+            "length": 5950,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 5,
+            "name": "",
+            "length": 5000,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 6,
+            "name": "",
+            "length": 5800,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 7,
+            "name": "",
+            "length": 5960,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 8,
+            "name": "",
+            "length": 5850,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 9,
+            "name": "",
+            "length": 5900,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 10,
+            "name": "",
+            "length": 6800,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 11,
+            "name": "",
+            "length": 6100,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 12,
+            "name": "",
+            "length": 6000,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 13,
+            "name": "",
+            "length": 6000,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 14,
+            "name": "",
+            "length": 7100,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 15,
+            "name": "",
+            "length": 6900,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 16,
+            "name": "",
+            "length": 7200,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 17,
+            "name": "",
+            "length": 5900,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 18,
+            "name": "",
+            "length": 7000,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 19,
+            "name": "",
+            "length": 6100,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 20,
+            "name": "",
+            "length": 9200,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 21,
+            "name": "",
+            "length": 7900,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 22,
+            "name": "",
+            "length": 6050,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 23,
+            "name": "",
+            "length": 6100,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 24,
+            "name": "",
+            "length": 7950,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 25,
+            "name": "",
+            "length": 5700,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 26,
+            "name": "",
+            "length": 6800,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        },
+        {
+            "id": 27,
+            "name": "",
+            "length": 10100,
+            "chartUrl": "",
+            "discussionUrl": "",
+            "showNotesUrl": ""
+        }
+    ]
 }

@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.windowContainer {
+    width: 180px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.navbar-text {
+    margin: 0;
+    width: 80%;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-line {
+    stroke: lightgray;
+    stroke-opacity: 0;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-point {
+    stroke: gray;
+}
+
+.ct-chart .window {
+    border: 1px solid #808080;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 15px;
+}
+
+/*.ct-chart .tooltip{
+	position:absolute;
+	display:inline-block;
+	min-width:5em;
+	padding:.5em;
+	background:#F4C63D;
+	color:#453D3F;
+	font-weight:700;
+	text-align:center;
+	pointer-events:none;
+	z-index:1
+}
+
+.ct-chart .tooltip:after{
+	content:"";
+	position:absolute;
+	top:100%;
+	left:50%;
+	width:0;
+	height:0;
+	margin-left:-15px;
+	border:15px solid transparent;
+	border-top-color:#F4C63D
+}*/
+
+.tooltip {
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    border-radius: 3px;
+    text-align: center;
+    pointer-events: none;
+    color: white;
+    -moz-transition: opacity .1s ease-out;
+    -o-transition: opacity .1s ease-out;
+    -webkit-transition: opacity .1s ease-out;
+    transition: opacity .1s ease-out;
+}
+
+    .tooltip.tooltip-hidden {
+        opacity: 0;
+    }
