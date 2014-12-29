@@ -46,10 +46,11 @@ $.getJSON("data.json", function (showData) {
             labelInterpolationFnc: function (value) {
                 return value.toHHMMSS();
             }
-        }
+        },
+        lineSmooth: true
     };
 
-    new Chartist.Line('.ct-chart', {
+    var lineChart = new Chartist.Line('.ct-chart', {
         labels: labels,
         series: [
           {
