@@ -1,0 +1,778 @@
+{
+    "podcast": "Hello Internet",
+    "episode": {
+        "number": 28,
+        "title": "Randomness in a Box",
+        "url": "http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/54aab9aee4b0375c0854b9c5/1420474937269/28.mp3/original/28.mp3",
+        "showNotesUrl": "http://www.hellointernet.fm/podcast/28",
+        "discussionUrl": "http://www.reddit.com/r/CGPGrey/comments/2rev6q/hi_28_randomness_in_a_box/",
+        "chartMaker": {
+            "name": "vmax77",
+            "url": "http://www.reddit.com/user/vmax77"
+        }
+    },
+    "stops": [
+        {
+            "id": 1,
+            "title": "3 Claps for Grey",
+            "position": {
+                "top": 1,
+                "left": 1
+            },
+            "description": "No, 3 and a half",
+            "seek": {
+                "min": 0,
+                "sec": 1
+            }
+        },
+        {
+            "id": 2,
+            "title": "HI Anniversary-ish",
+            "position": {
+                "top": 1,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 19
+            }
+        },
+        {
+            "id": 3,
+            "title": "New Year's Eves",
+            "position": {
+                "top": 1.2,
+                "left": 5.2
+            },
+            "description": "",
+            "seek": {
+                "min": 7,
+                "sec": 57
+            }
+        },
+        {
+            "id": 4,
+            "title": "Grey slept through <br/>the turn of <br/> the Millennia",
+            "position": {
+                "top": 2,
+                "left": 3
+            },
+            "description": "Brady Worked",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 5,
+            "title": "New Year Resolutions",
+            "position": {
+                "top": 2,
+                "left": 5
+            },
+            "description": "",
+            "seek": {
+                "min": 10,
+                "sec": 12
+            }
+        },
+        {
+            "id": 6,
+            "title": "No resolutions for Brady",
+            "position": {
+                "top": 2,
+                "left": 1
+            },
+            "description": "Grey is Neutral on New Year Eve but not Resolutions",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 7,
+            "title": "Grey's System of Goals and Reviews",
+            "position": {
+                "top": 3,
+                "left": 5
+            },
+            "description": "Periodic videos for Brady and Periodic reviews for Grey",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 8,
+            "title": "Brady's System of Going with the flow",
+            "position": {
+                "top": 3.5,
+                "left": 4
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 9,
+            "title": "<a href='http://www.squarespace.com/hellointernet' target='_blank'><img src='SquarespaceLogo.jpg' alt='Squarespace' /></a>",
+            "position": {
+                "top": 3,
+                "left": 1
+            },
+            "description": "Code: HELLO",
+            "seek": {
+                "min": 22,
+                "sec": 7
+            }
+        },
+        {
+            "id": 10,
+            "title": "New Year's Honours List",
+            "position": {
+                "top": 4,
+                "left": 3.5
+            },
+            "description": "That would be Honors for you, Americans",
+            "seek": {
+                "min": 24,
+                "sec": 16
+            }
+        },
+        {
+            "id": 11,
+            "title": "<img src='Martynpoliakoff.jpg' /><br/>Knighthood for <a href='http://www.bradyharanblog.com/blog/2014/12/30/sir-martyn-poliakoff' target='_blank'>Prof. Martyn Poliakoff</a>",
+            "position": {
+                "top": 4,
+                "left": 5
+            },
+            "description": "That would be Sir Martyn Poliakoff now",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 12,
+            "title": "Brady channel's mentioned in the Announcement",
+            "position": {
+                "top": 5.5,
+                "left": 5
+            },
+            "description": "That would be Lady Brady now",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 13,
+            "title": "Feynman Didn't Approve of Honours",
+            "position": {
+                "top": 4.5,
+                "left": 0.5
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 14,
+            "title": "Plane Crash Corner",
+            "position": {
+                "top": 5.2,
+                "left": 3.5
+            },
+            "description": "Sad News for the End of the Year",
+            "seek": {
+                "min": 34,
+                "sec": 12
+            }
+        },
+        {
+            "id": 15,
+            "title": "Flight QZ8501",
+            "position": {
+                "top": 6.5,
+                "left": 3.5
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 16,
+            "title": "Follow Up",
+            "position": {
+                "top": 8,
+                "left": 3
+            },
+            "description": "..of the longest podcast yet",
+            "seek": {
+                "min": 42,
+                "sec": 40
+            }
+        },
+        {
+            "id": 17,
+            "title": "Hello Internet <br/>Editing Hyperlapse",
+            "position": {
+                "top": 9,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 18,
+            "title": "<a href='http://www.lootcrate.com/?utm_source=podcast&utm_medium=Midroll&utm_campaign=hello' target='_blank'><img src='Lootcrate.jpg' alt='LootCrate' /></a>",
+            "position": {
+                "top": 10,
+                "left": 1
+            },
+            "description": "Code: HELLO",
+            "seek": {
+                "min": 46,
+                "sec": 29
+            }
+        },
+        {
+            "id": 19,
+            "title": "Brady gets a text message",
+            "position": {
+                "top": 10,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 47,
+                "sec": 54
+            }
+        },
+        {
+            "id": 20,
+            "title": "IM and SMS Etiquette",
+            "position": {
+                "top": 10,
+                "left": 5
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 21,
+            "title": "Brady's View",
+            "position": {
+                "top": 11,
+                "left": 3
+            },
+            "description": "Only between 9am and 10pm",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 22,
+            "title": "Grey's View",
+            "position": {
+                "top": 12,
+                "left": 3
+            },
+            "description": "Technology is your friend",
+            "seek": {
+                "min": 36,
+                "sec": 6
+            }
+        },
+        {
+            "id": 23,
+            "title": "Texter Everyminute",
+            "position": {
+                "top": 13,
+                "left": 3
+            },
+            "description": "Destin",
+            "seek": {
+                "min": 37,
+                "sec": 10
+            }
+        },
+        {
+            "id": 24,
+            "title": "Selfie with Science",
+            "position": {
+                "top": 11.5,
+                "left": 5
+            },
+            "description": "Incredible response",
+            "seek": {
+                "min": 39,
+                "sec": 25
+            }
+        },
+        {
+            "id": 25,
+            "title": "How famous is <br/>the <a href='https://en.wikipedia.org/wiki/Commonwealth_of_Nations' target='_blank'>Commonwealth</a>",
+            "position": {
+                "top": 12.5,
+                "left": 5
+            },
+            "description": "mmm...",
+            "seek": {
+                "min": 40,
+                "sec": 55
+            }
+        },
+        {
+            "id": 26,
+            "title": "Australia <br/>knows Commonwealth",
+            "position": {
+                "top": 13.5,
+                "left": 5
+            },
+            "description": "",
+            "seek": {
+                "min": 42,
+                "sec": 8
+            }
+        },
+        {
+            "id": 27,
+            "title": "Brady meets <br/><a href='https://en.wikipedia.org/wiki/Prince_Andrew,_Duke_of_York' target='_blank'>Prince Andrew</a>",
+            "position": {
+                "top": 12,
+                "left": 1
+            },
+            "description": "Does not do selfies",
+            "seek": {
+                "min": 45,
+                "sec": 28
+            }
+        },
+        {
+            "id": 28,
+            "title": "Hopey <br/>Inventor of Selfie",
+            "position": {
+                "top": 13,
+                "left": 1
+            },
+            "description": "<i>Or, is he?</i>",
+            "seek": {
+                "min": 49,
+                "sec": 16
+            }
+        },
+        {
+            "id": 29,
+            "title": "<a href='https://en.wikipedia.org/wiki/Raman_spectroscopy' target='_blank'>Raman Spectroscopy</a>",
+            "position": {
+                "top": 14,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 53,
+                "sec": 38
+            }
+        },
+        {
+            "id": 30,
+            "title": "<a href='https://en.wikipedia.org/wiki/Raman_Research_Institute' target='_blank'>Raman Institute</a>",
+            "position": {
+                "top": 15,
+                "left": 1
+            },
+            "description": "Bangalore, India",
+            "seek": {
+                "min": 53,
+                "sec": 48
+            }
+        },
+        {
+            "id": 31,
+            "title": "Rock Specialist",
+            "position": {
+                "top": 15,
+                "left": 3
+            },
+            "description": "Realllllly into rocks",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 32,
+            "title": "C.V. Raman's Walking Stick <br/>(<a href='https://www.youtube.com/watch?v=pdwiwuLVzaE' target='_blank'>Brady's Video</a>)",
+            "position": {
+                "top": 15,
+                "left": 5
+            },
+            "description": "",
+            "seek": {
+                "min": 54,
+                "sec": 49
+            }
+        },
+        {
+            "id": 33,
+            "title": "Brand new sponsor: <br/><a href='https://braintreepayments.com/podcast' target='_blank'>Braintree</a>",
+            "position": {
+                "top": 16,
+                "left": 3
+            },
+            "description": "Online Payments",
+            "seek": {
+                "min": 47,
+                "sec": 24
+            }
+        },
+        {
+            "id": 34,
+            "title": "Grey's New Kindle",
+            "position": {
+                "top": 17,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 57,
+                "sec": 45
+            }
+        },
+        {
+            "id": 35,
+            "title": "<small>Text Justification rant</small>",
+            "position": {
+                "top": 17,
+                "left": 5
+            },
+            "description": "Actually pretty quick one",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 36,
+            "title": "<h1>Buttons</h1>",
+            "position": {
+                "top": 18.5,
+                "left": 3
+            },
+            "description": "... are the new text justification",
+            "seek": {
+                "min": 60,
+                "sec": 46
+            }
+        },
+        {
+            "id": 37,
+            "title": "Amazon lost it",
+            "position": {
+                "top": 20,
+                "left": 2
+            },
+            "description": "Fire, Echo, Kindle",
+            "seek": {
+                "min": 70,
+                "sec": 7
+            }
+        },
+        {
+            "id": 38,
+            "title": "Amazon's <a href='https://www.youtube.com/watch?v=KkOCeAtKHIc' target='_blank'>awful commercial</a> <br/>and its <a href='https://www.youtube.com/watch?v=GijLoiVkmYI' target='_blank'>parody</a>",
+            "position": {
+                "top": 20,
+                "left": 4
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 39,
+            "title": "<a href='http://www.cgpgrey.com/blog/voyage-to-nowhere' target='_blank'>Review</a> Coming up",
+            "position": {
+                "top": 21,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 40,
+            "title": "<br/><br/><br/><br/><br/>Star Wars<br/><br/><br/><br/><br/>",
+            "position": {
+                "top": 22,
+                "left": 3.5
+            },
+            "description": "",
+            "seek": {
+                "min": 81,
+                "sec": 5
+            }
+        },
+        {
+            "id": 41,
+            "title": "<a href='https://www.youtube.com/watch?v=OMOVFvcNfvE' target='_blank'>Trailer</a>",
+            "position": {
+                "top": 22,
+                "left": 1
+            },
+            "description": "Grey says do not click this link",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 42,
+            "title": "Brady insists on <br/>watching the trailer",
+            "position": {
+                "top": 23,
+                "left": 1
+            },
+            "description": "",
+            "seek": {
+                "min": 82,
+                "sec": 25
+            }
+        },
+        {
+            "id": 43,
+            "title": "Grey will watch <br/>the trailer",
+            "position": {
+                "top": 24,
+                "left": 1
+            },
+            "description": "Brady is nervous",
+            "seek": {
+                "min": 47,
+                "sec": 38
+            }
+        },
+        {
+            "id": 44,
+            "title": "<h1>HUGE SIGH</h1>",
+            "position": {
+                "top": 24.5,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 45,
+            "title": "Brady falls for <br/><a href='https://www.youtube.com/watch?v=plwVRYEQG_I' target='_blank'>fan-made trailer</a>",
+            "position": {
+                "top": 26,
+                "left": 3.2
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 46,
+            "title": "LOL for JJ Abrams",
+            "position": {
+                "top": 27,
+                "left": 3
+            },
+            "description": "Lots of Likes",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 47,
+            "title": "Brady wants <br/>scene-by-scene dissection",
+            "position": {
+                "top": 28,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 48,
+            "title": "<img src='stormtrooper.jpg' alt='Helmet-less Stormtrooper' />",
+            "position": {
+                "top": 29,
+                "left": 2.7
+            },
+            "description": "Helmet-less Stormtrooper",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 49,
+            "title": "<img src='droid.jpg' alt='Silly soccerball droid' />",
+            "position": {
+                "top": 31,
+                "left": 2.8
+            },
+            "description": "Silly soccerball droid",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 50,
+            "title": "<img src='troopers.jpg' alt='Troopers' />",
+            "position": {
+                "top": 33,
+                "left": 2.2
+            },
+            "description": "Quite cool",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 51,
+            "title": "<img src='speeder.jpg' alt='Woman on Speeder' />",
+            "position": {
+                "top": 35,
+                "left": 1.8
+            },
+            "description": "Woman on speeder",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 52,
+            "title": "<img src='xwings.jpg' alt='X Wings' />",
+            "position": {
+                "top": 37,
+                "left": 2
+            },
+            "description": "X Wings",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 53,
+            "title": "<img src='lightsaber.jpg' alt='Lightsaber' />",
+            "position": {
+                "top": 39,
+                "left": 2.5
+            },
+            "description": "Lightsaber",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 54,
+            "title": "<img src='falcon.jpg' alt='Millenium Falcon' />",
+            "position": {
+                "top": 41,
+                "left": 2.3
+            },
+            "description": "Millenium Falcon",
+            "seek": {
+                "min": 62,
+                "sec": 44
+            }
+        },
+        {
+            "id": 55,
+            "title": "More Star Wars <br/>discussions coming up",
+            "position": {
+                "top": 45,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 56,
+            "title": "Brady had dinner <br/>with someone awesome",
+            "position": {
+                "top": 46,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 57,
+            "title": "Grey doesn't like surprises",
+            "position": {
+                "top": 47,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 58,
+            "title": "<a href='http://static.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/548b1077e4b092fbeab3b8b2/1418399864313/?format=1000w' target='_blank'>Brady in bow tie, with elderly gentleman</a>",
+            "position": {
+                "top": 52,
+                "left": 2.8
+            },
+            "description": "Brady had dinner with Darth Vader",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": 1,
+            "fromNode": "right",
+            "to": 2,
+            "toNode": "left"
+        }
+    ]
+}
