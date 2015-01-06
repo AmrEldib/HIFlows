@@ -196,25 +196,33 @@
             "id": 25,
             "name": "",
             "length": 5700,
-            "chartUrl": "",
+            "chartUrl": "http://www.amreldib.com/HIFlows/25/",
             "discussionUrl": "",
-            "showNotesUrl": ""
+            "showNotesUrl": "http://www.hellointernet.fm/podcast/25"
         },
         {
             "id": 26,
             "name": "",
             "length": 6800,
-            "chartUrl": "",
+            "chartUrl": "http://www.amreldib.com/HIFlows/26/",
             "discussionUrl": "",
-            "showNotesUrl": ""
+            "showNotesUrl": "http://www.hellointernet.fm/podcast/26"
         },
         {
             "id": 27,
             "name": "",
             "length": 10100,
-            "chartUrl": "",
+            "chartUrl": "http://www.amreldib.com/HIFlows/27/",
             "discussionUrl": "",
-            "showNotesUrl": ""
+            "showNotesUrl": "http://www.hellointernet.fm/podcast/27"
+        },
+        {
+            "id": 28,
+            "name": "Randomness in a Box",
+            "length": 5320,
+            "chartUrl": "http://www.amreldib.com/HIFlows/28/",
+            "discussionUrl": "",
+            "showNotesUrl": "http://www.hellointernet.fm/podcast/28"
         }
     ]
 }
