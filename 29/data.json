@@ -1,0 +1,336 @@
+{
+    "podcast": "Hello Internet",
+    "episode": {
+        "number": 29,
+        "title": "Courses for Horses",
+        "url": "http://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/54bd10bae4b07b4a7d205816/1421676939749/29.mp3/original/29.mp3",
+        "showNotesUrl": "http://www.hellointernet.fm/podcast/29",
+        "discussionUrl": "http://www.reddit.com/r/CGPGrey/comments/2sxqdw/hi_29_courses_for_horses/",
+        "chartMaker": {
+            "name": "vmax77",
+            "url": "http://www.reddit.com/user/vmax77"
+        }
+    },
+    "stops": [
+        {
+            "id": 1,
+            "title": "Congratulations on Editing",
+            "position": {
+                "top": 1,
+                "left": 1
+            },
+            "description": "Why, Brady? Why?",
+            "seek": {
+                "min": 0,
+                "sec": 1
+            }
+        },
+        {
+            "id": 2,
+            "title": "Googling Prime Numbers",
+            "position": {
+                "top": 1,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 29
+            }
+        },
+        {
+            "id": 3,
+            "title": "Follow Up",
+            "position": {
+                "top": 2,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 2,
+                "sec": 30
+            }
+        },
+        {
+            "id": 4,
+            "title": "Do Not Disturb",
+            "position": {
+                "top": 2.5,
+                "left": 5
+            },
+            "description": "Big Topic on THE Reddit",
+            "seek": {
+                "min": 2,
+                "sec": 35
+            }
+        },
+        {
+            "id": 5,
+            "title": "Derk from Veristablium",
+            "position": {
+                "top": 3,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 6,
+            "title": "Horses for Courses",
+            "position": {
+                "top": 3.5,
+                "left": 1
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 7,
+            "title": "Sir Martyn Textalot",
+            "position": {
+                "top": 4,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 8,
+            "title": "Course for the Horse",
+            "position": {
+                "top": 5,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 9,
+            "title": "<a href='http://www.squarespace.com/hellointernet' target='_blank'><img src='img/SquarespaceLogo.jpg' alt='Squarespace' /></a>",
+            "position": {
+                "top": 6,
+                "left": 3
+            },
+            "description": "Code: HELLO",
+            "seek": {
+                "min": 17,
+                "sec": 50
+            }
+        },
+        {
+            "id": 10,
+            "title": "Kiss Inflation",
+            "position": {
+                "top": 8,
+                "left": 3
+            },
+            "description": "xo xo",
+            "seek": {
+                "min": 20,
+                "sec": 12
+            }
+        },
+        {
+            "id": 11,
+            "title": "Mitchell and Webb <a href='https://www.youtube.com/watch?v=lwznMXefjnc' target='_blank'>Kisses and Hugs video</a>",
+            "position": {
+                "top": 9,
+                "left": 1
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 12,
+            "title": "<img src='img/GreyKeyboard.jpg' alt='Grey's Keyboard' /><br/><a href='http://www.wasdkeyboards.com/' target='_blank'>Grey's Keyboard</a>",
+            "position": {
+                "top": 10,
+                "left": 5
+            },
+            "description": "I can barely see this thing",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 13,
+            "title": "<img src='img/harrys.png' /><br/><a href='https://www.harrys.com/?hellointernetpodcast' target='_blank'>Harry's</a>",
+            "position": {
+                "top": 12,
+                "left": 3
+            },
+            "description": "Code: HI",
+            "seek": {
+                "min": 29,
+                "sec": 38
+            }
+        },
+        {
+            "id": 14,
+            "title": "Grey's News Avoidance",
+            "position": {
+                "top": 13,
+                "left": 3
+            },
+            "description": "..bothers Brady",
+            "seek": {
+                "min": 32,
+                "sec": 30
+            }
+        },
+        {
+            "id": 15,
+            "title": "It's a Responsibility",
+            "position": {
+                "top": 14,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 16,
+            "title": "One train journey analogy",
+            "position": {
+                "top": 15,
+                "left": 3
+            },
+            "description": "Seems backwards",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 17,
+            "title": "Thought Experiment",
+            "position": {
+                "top": 16,
+                "left": 3
+            },
+            "description": "What happens if everyone avoids news?",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 18,
+            "title": "Time with Kids",
+            "position": {
+                "top": 17,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 65,
+                "sec": 3
+            }
+        },
+        {
+            "id": 19,
+            "title": "Brady: The God of Children",
+            "position": {
+                "top": 19,
+                "left": 3
+            },
+            "description": "..recommends poo jokes",
+            "seek": {
+                "min": 47,
+                "sec": 54
+            }
+        },
+        {
+            "id": 20,
+            "title": "Grey: Kids are useless",
+            "position": {
+                "top": 20,
+                "left": 3
+            },
+            "description": "They can not farm anymore",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 21,
+            "title": "<img src='img/audible.png' /><br/><a href='http://audible.com/hellointernet' target='_blank'>Audible</a><br/>Grey recommends 'Me Talk Pretty One Day'.",
+            "position": {
+                "top": 21,
+                "left": 2
+            },
+            "description": "Code: hellointernet",
+            "seek": {
+                "min": 0,
+                "sec": 0
+            }
+        },
+        {
+            "id": 22,
+            "title": "<img src='img/serial.png' /><br/><a href='http://serialpodcast.org/' target='_blank'>Serial</a>",
+            "position": {
+                "top": 21,
+                "left": 4
+            },
+            "description": "SPOILERS!",
+            "seek": {
+                "min": 73,
+                "sec": 29
+            }
+        },
+        {
+            "id": 23,
+            "title": "Check CNN",
+            "position": {
+                "top": 22,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 132,
+                "sec": 0
+            }
+        },
+        {
+            "id": 24,
+            "title": "Check BBC",
+            "position": {
+                "top": 24,
+                "left": 3
+            },
+            "description": "",
+            "seek": {
+                "min": 133,
+                "sec": 50
+            }
+        }
+    ],
+    "connections": [
+        {
+            "from": 1,
+            "fromNode": "right",
+            "to": 2,
+            "toNode": "left"
+        }
+    ]
+}
